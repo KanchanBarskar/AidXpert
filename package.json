@@ -1,0 +1,40 @@
+{
+  "name": "aid-xpert",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.7.2",
+    "@fortawesome/free-solid-svg-icons": "^6.7.2",
+    "@fortawesome/react-fontawesome": "^0.2.2",
+    "@reduxjs/toolkit": "^2.4.0",
+    "aos": "^2.3.4",
+    "bootstrap": "^5.3.3",
+    "formidable": "^3.5.4",
+    "next": "^14.2.24",
+    "next-auth": "^4.24.11",
+    "react": "^18",
+    "react-bootstrap": "^2.10.5",
+    "react-dom": "^18",
+    "react-feather": "^2.0.10",
+    "react-hot-toast": "^2.4.1",
+    "react-redux": "^9.1.2",
+    "redux": "^5.0.1",
+    "sharp": "^0.33.5"
+  },
+  "devDependencies": {
+    "@types/bootstrap": "^5.2.10",
+    "@types/formidable": "^3.4.5",
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.15",
+    "typescript": "^5"
+  }
+}

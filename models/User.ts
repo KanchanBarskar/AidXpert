@@ -1,0 +1,30 @@
+export interface User {
+    user_id: number;
+    user_name: string;
+    email: string;
+    first_name: string;
+    last_name: string;
+    phone_number: string;
+    gender: string;
+    birthday: string;
+    biography: string;
+    password: string;
+    address: string;
+    city: string;
+    state: string;
+    country: string;
+    profile_image_name: string;
+    postal_code: string;
+    term_condition: boolean;
+    social_media_based_login: string;
+    role_id: number;
+    tokenRevocationTimestamp: string | null;
+    fcm_token: string | null;
+    platform: string | null;
+    latitude: number | null;
+    longitude: number | null;
+    isActive: boolean;
+    isVerified: boolean;
+    createdAt: string;
+    updatedAt: string;
+}

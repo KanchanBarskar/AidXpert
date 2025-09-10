@@ -4,10 +4,10 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 First run below command.
 
-npm install next react react-dom
-
 
 ```bash
+npm install next react react-dom
+
 Build next application : 
 npm run build
 

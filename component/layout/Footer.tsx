@@ -1,5 +1,4 @@
 import React from "react";
-import Image from "next/image";
 
 const Footer = () => {
   return (
@@ -12,7 +11,7 @@ const Footer = () => {
   
             <div className="footer-widget footer-about">
               <div className="footer-logo">
-                <Image src="/img/logo-whte.png" alt="aidxpert"/>
+                <img src="/img/logo-whte.png" alt="aidxpert"/>
               </div>
               <div className="footer-about-content">
                 <p>A healthcare product is the result of the interaction of capital, labour and entrepreneurship in the
@@ -79,7 +78,7 @@ const Footer = () => {
                 </p>
                 <p className="mb-0 cf_email">
                   <i className="fas fa-envelope"></i>
-                  <a href="#" style={{color:"color:#fff;"}}>info@aidxpert.com</a>
+                  <a href="#" style={{color:"#fff"}}>info@aidxpert.com</a>
                 </p>
               </div>
             </div>
@@ -89,11 +88,11 @@ const Footer = () => {
       </div>
     </div>
     <div className="sidenav">
-      <a href="consult.html"><Image src="/img/footer-banner.jpg" alt="banner image"/></a>
+      <a href="consult.html"><img src="/img/footer-banner.jpg" alt="banner image"/></a>
     </div>
   
     <div className="sidenav">
-      <a href="consult.html"><Image src="/img/footer-banner.jpg" alt = "footer banner"/></a>
+      <a href="consult.html"><img src="/img/footer-banner.jpg" alt = "footer banner"/></a>
     </div>
   
     <div className="footer-bottom">

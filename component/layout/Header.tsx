@@ -1,5 +1,4 @@
 import React from "react";
-import Image from "next/image";
 
 const Header = () =>{
     return(
@@ -7,7 +6,7 @@ const Header = () =>{
   <header className="header">
     <nav className="navbar navbar-expand-lg header-nav">
       <div className="navbar-header">
-        <a id="mobile_btn" href="javascript:void(0);">
+        <a id="mobile_btn" href="#">
           <span className="bar-icon">
             <span></span>
             <span></span>
@@ -15,15 +14,15 @@ const Header = () =>{
           </span>
         </a>
         <a href="/" className="navbar-brand logo">
-          <Image src="/img/logo.png" className="img-fluid" alt="Logo"/>
+          <img src="/img/logo.png" className="img-fluid" alt="Logo"/>
         </a>
       </div>
       <div className="main-menu-wrapper">
         <div className="menu-header">
           <a href="/" className="menu-logo">
-            <Image src="/img/logo.png" className="img-fluid" alt="Logo"/>
+            <img src="/img/logo.png" className="img-fluid" alt="Logo"/>
           </a>
-          <a id="menu_close" className="menu-close" href="javascript:void(0);">
+          <a id="menu_close" className="menu-close" href="#">
             <i className="fas fa-times"></i>
           </a>
         </div>
@@ -35,14 +34,14 @@ const Header = () =>{
           <li><a href="/surgeries">Find Surgeons</a></li>
           <li><a href="/book-ambulance">Book Ambulance</a></li>
           <li className="has-submenu">
-            <a href="javascript:void(0);">Services <i className="fas fa-chevron-down"></i></a>
+            <a href="#">Services <i className="fas fa-chevron-down"></i></a>
             <ul className="submenu">
               <li><a href="/book-ambulance">Ambulance Service</a></li>
               <li><a href="staffing-services.html">Healthcare Staffing Services</a></li>
             </ul>
           </li>
           <li className="has-submenu">
-            <a href="javascript:void(0);">Help <i className="fas fa-chevron-down"></i></a>
+            <a href="#">Help <i className="fas fa-chevron-down"></i></a>
             <ul className="submenu">
               <li><a href="#">Health Tips</a></li>
               <li><a href="#">Help</a></li>

@@ -1,8 +1,6 @@
 "use client";
 import React from "react";
-import Image from "next/image";
 import "../../styles/globals.css";
-import Script from "next/script";
 
 const BookAmbulance = () => {
   return (<>
@@ -49,7 +47,7 @@ color: #ffffff;
               </div>
               <div className="col-lg-6 aos" data-aos="fade-up">
                 <div className="banner-imgs">
-                  <Image src="/img/ambulance.png" className="img-fluid aos" alt="bannerimage" />
+                  <img src="/img/ambulance.png" className="img-fluid aos" alt="bannerimage" />
                 </div>
               </div>
             </div>
@@ -117,7 +115,7 @@ color: #ffffff;
 
       <section className="section services">
         <div className="service-right">
-          <Image src="/img/bg/service-right.svg" className="img-fluid" alt="services right" />
+          <img src="/img/bg/service-right.svg" className="img-fluid" alt="services right" />
         </div>
         <div className="container">
 
@@ -131,7 +129,7 @@ color: #ffffff;
               <div className="col-lg-4 col-md-4 col-12" data-aos="fade-down">
                 <div className="services-group">
                   <div className="services-icon border-secondary">
-                    <Image className="icon-img bg-secondary" src="/img/icons/services-icon-01.svg" alt="Choose Locations" />
+                    <img className="icon-img bg-secondary" src="/img/icons/services-icon-01.svg" alt="Choose Locations" />
                   </div>
                   <div className="services-content">
                     <h3>1. Choose Pick-Up Locations</h3>
@@ -142,7 +140,7 @@ color: #ffffff;
               <div className="col-lg-4 col-md-4 col-12" data-aos="fade-down">
                 <div className="services-group">
                   <div className="services-icon border-secondary">
-                    <Image className="icon-img bg-secondary" src="/img/icons/services-icon-01.svg" alt="Choose Locations" />
+                    <img className="icon-img bg-secondary" src="/img/icons/services-icon-01.svg" alt="Choose Locations" />
                   </div>
                   <div className="services-content">
                     <h3>2. Enter Drop Location</h3>
@@ -153,7 +151,7 @@ color: #ffffff;
               <div className="col-lg-4 col-md-4 col-12" data-aos="fade-down">
                 <div className="services-group">
                   <div className="services-icon border-secondary">
-                    <Image className="icon-img bg-secondary" src="/img/icons/services-icon-01.svg" alt="Choose Locations" />
+                    <img className="icon-img bg-secondary" src="/img/icons/services-icon-01.svg" alt="Choose Locations" />
                   </div>
                   <div className="services-content">
                     <h3>3. Book your Ambulance</h3>
@@ -169,10 +167,10 @@ color: #ffffff;
 
       <section className="section facts-number">
         <div className="facts-left">
-          <Image src="/img/bg/facts-left.png" className="img-fluid" alt="facts left" />
+          <img src="/img/bg/facts-left.png" className="img-fluid" alt="facts left" />
         </div>
         <div className="facts-right">
-          <Image src="/img/bg/facts-right.png" className="img-fluid" alt="facts right" />
+          <img src="/img/bg/facts-right.png" className="img-fluid" alt="facts right" />
         </div>
         <div className="container">
           <div className="section-heading" data-aos="fade-down">
@@ -186,7 +184,7 @@ color: #ffffff;
                 <div className="count-group flex-fill">
                   <div className="customer-count d-flex align-items-center">
                     <div className="count-img">
-                      <Image src="/img/icons/bx-heart.svg" alt="Heart Icon" />
+                      <img src="/img/icons/bx-heart.svg" alt="Heart Icon" />
                     </div>
                     <div className="count-content">
                       <h4><span className="counterUp">16</span>K+</h4>
@@ -199,7 +197,7 @@ color: #ffffff;
                 <div className="count-group flex-fill">
                   <div className="customer-count d-flex align-items-center">
                     <div className="count-img">
-                      <Image src="/img/icons/bx-car.svg" alt="Car Icon" />
+                      <img src="/img/icons/bx-car.svg" alt="Car Icon" />
                     </div>
                     <div className="count-content">
                       <h4><span className="counterUp">150</span>+</h4>
@@ -212,7 +210,7 @@ color: #ffffff;
                 <div className="count-group flex-fill">
                   <div className="customer-count d-flex align-items-center">
                     <div className="count-img">
-                      <Image src="/img/icons/bx-headphone.svg" alt="Headphone Icon" />
+                      <img src="/img/icons/bx-headphone.svg" alt="Headphone Icon" />
                     </div>
                     <div className="count-content">
                       <h4><span className="counterUp">3500</span>+</h4>
@@ -225,7 +223,7 @@ color: #ffffff;
                 <div className="count-group flex-fill">
                   <div className="customer-count d-flex align-items-center">
                     <div className="count-img">
-                      <Image src="/img/icons/bx-history.svg" alt="History Icon" />
+                      <img src="/img/icons/bx-history.svg" alt="History Icon" />
                     </div>
                     <div className="count-content">
                       <h4><span className="counterUp">200</span>+</h4>
@@ -241,7 +239,7 @@ color: #ffffff;
 
       <section className="section why-choose popular-explore" style={{ backgroundColor: "#F2F7F6" }}>
         <div className="choose-left">
-          <Image src="/img/bg/choose-left.png" className="img-fluid" alt="Why Choose Us" />
+          <img src="/img/bg/choose-left.png" className="img-fluid" alt="Why Choose Us" />
         </div>
         <div className="container">
 
@@ -254,7 +252,7 @@ color: #ffffff;
             <div className="col-lg-3 col-md-3 aos aos-init aos-animate" data-aos="fade-up">
               <div className="work-info">
                 <div className="work-icon">
-                  <span><Image src="/img/number-1.png" alt="" /></span>
+                  <span><img src="/img/number-1.png" alt="" /></span>
                 </div>
                 <div className="work-content">
                   <h5>Ease to use & find an ambulance nearby locations</h5>
@@ -265,7 +263,7 @@ color: #ffffff;
             <div className="col-lg-3 col-md-3 aos aos-init aos-animate" data-aos="fade-up">
               <div className="work-info">
                 <div className="work-icon">
-                  <span><Image src="/img/number-2.png" alt="" /></span>
+                  <span><img src="/img/number-2.png" alt="" /></span>
                 </div>
                 <div className="work-content">
                   <h5>Emergency assistance time of 15 minutes or less</h5>
@@ -276,7 +274,7 @@ color: #ffffff;
             <div className="col-lg-3 col-md-3 aos aos-init aos-animate" data-aos="fade-up">
               <div className="work-info">
                 <div className="work-icon">
-                  <span><Image src="/img/number-3.png" alt="" /></span>
+                  <span><img src="/img/number-3.png" alt="" /></span>
                 </div>
                 <div className="work-content">
                   <h5>24/7 <br />Emergency <br />Service</h5>
@@ -287,7 +285,7 @@ color: #ffffff;
             <div className="col-lg-3 col-md-3 aos aos-init aos-animate" data-aos="fade-up">
               <div className="work-info">
                 <div className="work-icon">
-                  <span><Image src="/img/number-4.png" alt="" /></span>
+                  <span><img src="/img/number-4.png" alt="" /></span>
                 </div>
                 <div className="work-content">
                   <h5>Biggest fleet of ambulances across India</h5>
@@ -304,10 +302,10 @@ color: #ffffff;
       <section className="testimonial-section">
         <div className="testimonial-shape-img">
           <div className="testimonial-shape-left">
-            <Image src="/img/shape-04.png" alt="" />
+            <img src="/img/shape-04.png" alt="" />
           </div>
           <div className="testimonial-shape-right">
-            <Image src="/img/shape-05.png" alt="" />
+            <img src="/img/shape-05.png" alt="" />
           </div>
         </div>
         <div className="container">
@@ -317,7 +315,7 @@ color: #ffffff;
                 <div className="testimonial-grid">
                   <div className="testimonial-info">
                     <div className="testimonial-img">
-                      <Image src="/img/clients/client-01.jpg" className="img-fluid" alt="" />
+                      <img src="/img/clients/client-01.jpg" className="img-fluid" alt="" />
                     </div>
                     <div className="testimonial-content">
                       <div className="section-inner-header testimonial-header">
@@ -335,7 +333,7 @@ color: #ffffff;
                 <div className="testimonial-grid">
                   <div className="testimonial-info">
                     <div className="testimonial-img">
-                      <Image src="/img/clients/client-02.jpg" className="img-fluid" alt="" />
+                      <img src="/img/clients/client-02.jpg" className="img-fluid" alt="" />
                     </div>
                     <div className="testimonial-content">
                       <div className="section-inner-header testimonial-header">
@@ -352,7 +350,7 @@ color: #ffffff;
                 <div className="testimonial-grid">
                   <div className="testimonial-info">
                     <div className="testimonial-img">
-                      <Image src="/img/clients/client-03.jpg" className="img-fluid" alt="" />
+                      <img src="/img/clients/client-03.jpg" className="img-fluid" alt="" />
                     </div>
                     <div className="testimonial-content">
                       <div className="section-inner-header testimonial-header">

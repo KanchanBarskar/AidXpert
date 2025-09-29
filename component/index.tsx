@@ -1,5 +1,4 @@
 import React from "react";
-import Image from "next/image";
 import Script from "next/script";
 
 const Index = () => {
@@ -43,7 +42,7 @@ const Index = () => {
                                 <div className="set-category">
                                     <div className="d-flex align-items-center">
                                         <div className="img-holder">
-                                            <a href=""><Image src="/img/icons/set-cat-01.png" alt="" /></a>
+                                            <a href=""><img src="/img/icons/set-cat-01.png" alt="" /></a>
                                         </div>
                                         <div className="info-holder">
                                             <h3>Visit a Doctor</h3>
@@ -58,7 +57,7 @@ const Index = () => {
                                 <div className="set-category light">
                                     <div className="d-flex align-items-center">
                                         <div className="img-holder">
-                                            <a href=""><Image src="/img/icons/set-cat-02.png" alt="" /></a>
+                                            <a href=""><img src="/img/icons/set-cat-02.png" alt="" /></a>
                                         </div>
                                         <div className="info-holder">
                                             <h3>Order Medicines</h3>
@@ -73,7 +72,7 @@ const Index = () => {
                                 <div className="set-category lighter">
                                     <div className="d-flex align-items-center">
                                         <div className="img-holder">
-                                            <a href=""><Image src="/img/icons/set-cat-03.png" alt="" /></a>
+                                            <a href=""><img src="/img/icons/set-cat-03.png" alt="" /></a>
                                         </div>
                                         <div className="info-holder">
                                             <h3>Find a Lab</h3>
@@ -106,7 +105,7 @@ const Index = () => {
 
                             <div className="speicality-item text-center">
                                 <a href="/new-consultation.html"><div className="speicality-img">
-                                    <Image src="/img/specialities/specialities-01.png" className="img-fluid" alt="Speciality" />
+                                    <img src="/img/specialities/specialities-01.png" className="img-fluid" alt="Speciality" />
                                     <span><i className="fa fa-circle" aria-hidden="true"></i></span>
                                 </div></a>
                                 <p><a href="/new-consultation.html">Urology</a><br></br>
@@ -116,7 +115,7 @@ const Index = () => {
 
                             <div className="speicality-item text-center">
                                 <a href="/new-consultation.html"><div className="speicality-img">
-                                    <Image src="/img/specialities/specialities-02.png" className="img-fluid" alt="Speciality" />
+                                    <img src="/img/specialities/specialities-02.png" className="img-fluid" alt="Speciality" />
                                     <span><i className="fa fa-circle" aria-hidden="true"></i></span>
                                 </div></a>
                                 <p><a href="/new-consultation.html">Neurology</a><br />
@@ -126,7 +125,7 @@ const Index = () => {
 
                             <div className="speicality-item text-center">
                                 <a href="/new-consultation.html"><div className="speicality-img">
-                                    <Image src="/img/specialities/specialities-03.png" className="img-fluid" alt="Speciality" />
+                                    <img src="/img/specialities/specialities-03.png" className="img-fluid" alt="Speciality" />
                                     <span><i className="fa fa-circle" aria-hidden="true"></i></span>
                                 </div></a>
                                 <p><a href="/new-consultation.html">Orthopedic</a><br />
@@ -136,7 +135,7 @@ const Index = () => {
 
                             <div className="speicality-item text-center">
                                 <a href="/new-consultation.html"><div className="speicality-img">
-                                    <Image src="/img/specialities/specialities-04.png" className="img-fluid" alt="Speciality" />
+                                    <img src="/img/specialities/specialities-04.png" className="img-fluid" alt="Speciality" />
                                     <span><i className="fa fa-circle" aria-hidden="true"></i></span>
                                 </div></a>
                                 <p><a href="/new-consultation.html">Cardiologist</a><br />
@@ -146,7 +145,7 @@ const Index = () => {
 
                             <div className="speicality-item text-center">
                                 <a href="/new-consultation.html"><div className="speicality-img">
-                                    <Image src="/img/specialities/specialities-05.png" className="img-fluid" alt="Speciality" />
+                                    <img src="/img/specialities/specialities-05.png" className="img-fluid" alt="Speciality" />
                                     <span><i className="fa fa-circle" aria-hidden="true"></i></span>
                                 </div></a>
                                 <p><a href="/new-consultation.html">Dentist</a><br />
@@ -179,9 +178,9 @@ const Index = () => {
                             <div className="profile-widget">
                                 <div className="doc-img">
                                     <a href="#">
-                                        <Image className="img-fluid" alt="User Image" src="/img/doctors/doctor-01.jpg" />
+                                        <img className="img-fluid" alt="User Image" src="/img/doctors/doctor-01.jpg" />
                                     </a>
-                                    <a href="javascript:void(0)" className="fav-btn">
+                                    <a href="#" className="fav-btn">
                                         <i className="far fa-bookmark"></i>
                                     </a>
                                 </div>
@@ -226,9 +225,9 @@ const Index = () => {
                             <div className="profile-widget">
                                 <div className="doc-img">
                                     <a href="#">
-                                        <Image className="img-fluid" alt="User Image" src="/img/doctors/doctor-02.jpg" />
+                                        <img className="img-fluid" alt="User Image" src="/img/doctors/doctor-02.jpg" />
                                     </a>
-                                    <a href="javascript:void(0)" className="fav-btn">
+                                    <a href="#" className="fav-btn">
                                         <i className="far fa-bookmark"></i>
                                     </a>
                                 </div>
@@ -273,9 +272,9 @@ const Index = () => {
                             <div className="profile-widget">
                                 <div className="doc-img">
                                     <a href="#">
-                                        <Image className="img-fluid" alt="User Image" src="/img/doctors/doctor-03.jpg" />
+                                        <img className="img-fluid" alt="User Image" src="/img/doctors/doctor-03.jpg" />
                                     </a>
-                                    <a href="javascript:void(0)" className="fav-btn">
+                                    <a href="#" className="fav-btn">
                                         <i className="far fa-bookmark"></i>
                                     </a>
                                 </div>
@@ -320,9 +319,9 @@ const Index = () => {
                             <div className="profile-widget">
                                 <div className="doc-img">
                                     <a href="#">
-                                        <Image className="img-fluid" alt="User Image" src="/img/doctors/doctor-04.jpg" />
+                                        <img className="img-fluid" alt="User Image" src="/img/doctors/doctor-04.jpg" />
                                     </a>
-                                    <a href="javascript:void(0)" className="fav-btn">
+                                    <a href="#" className="fav-btn">
                                         <i className="far fa-bookmark"></i>
                                     </a>
                                 </div>
@@ -374,10 +373,10 @@ const Index = () => {
         <section className="testimonial-section">
             <div className="testimonial-shape-img">
                 <div className="testimonial-shape-left">
-                    <Image src="/img/shape-04.png" alt="" />
+                    <img src="/img/shape-04.png" alt="" />
                 </div>
                 <div className="testimonial-shape-right">
-                    <Image src="/img/shape-05.png" alt="" />
+                    <img src="/img/shape-05.png" alt="" />
                 </div>
             </div>
             <div className="container">
@@ -387,7 +386,7 @@ const Index = () => {
                             <div className="testimonial-grid">
                                 <div className="testimonial-info">
                                     <div className="testimonial-img">
-                                        <Image src="/img/clients/client-01.jpg" className="img-fluid" alt="" />
+                                        <img src="/img/clients/client-01.jpg" className="img-fluid" alt="" />
                                     </div>
                                     <div className="testimonial-content">
                                         <div className="section-inner-header testimonial-header">
@@ -405,7 +404,7 @@ const Index = () => {
                             <div className="testimonial-grid">
                                 <div className="testimonial-info">
                                     <div className="testimonial-img">
-                                        <Image src="/img/clients/client-02.jpg" className="img-fluid" alt="" />
+                                        <img src="/img/clients/client-02.jpg" className="img-fluid" alt="" />
                                     </div>
                                     <div className="testimonial-content">
                                         <div className="section-inner-header testimonial-header">
@@ -422,7 +421,7 @@ const Index = () => {
                             <div className="testimonial-grid">
                                 <div className="testimonial-info">
                                     <div className="testimonial-img">
-                                        <Image src="/img/clients/client-03.jpg" className="img-fluid" alt="" />
+                                        <img src="/img/clients/client-03.jpg" className="img-fluid" alt="" />
                                     </div>
                                     <div className="testimonial-content">
                                         <div className="section-inner-header testimonial-header">
@@ -457,13 +456,13 @@ const Index = () => {
 
                         <div className="blog grid-blog">
                             <div className="blog-image">
-                                <a href="#"><Image className="img-fluid" src="/img/blog/blog-01.jpg" alt="Post Image" /></a>
+                                <a href="#"><img className="img-fluid" src="/img/blog/blog-01.jpg" alt="Post Image" /></a>
                             </div>
                             <div className="blog-content">
                                 <ul className="entry-meta meta-item">
                                     <li>
                                         <div className="post-author">
-                                            <a href="#"><Image src="/img/doctors/doctor-thumb-01.jpg" alt="Post Author" /> <span>Dr. Vidya B</span></a>
+                                            <a href="#"><img src="/img/doctors/doctor-thumb-01.jpg" alt="Post Author" /> <span>Dr. Vidya B</span></a>
                                         </div>
                                     </li>
                                     <li><i className="far fa-clock"></i> 4 Dec 2022</li>
@@ -478,13 +477,13 @@ const Index = () => {
 
                         <div className="blog grid-blog">
                             <div className="blog-image">
-                                <a href="#"><Image className="img-fluid" src="/img/blog/blog-02.jpg" alt="Post Image" /></a>
+                                <a href="#"><img className="img-fluid" src="/img/blog/blog-02.jpg" alt="Post Image" /></a>
                             </div>
                             <div className="blog-content">
                                 <ul className="entry-meta meta-item">
                                     <li>
                                         <div className="post-author">
-                                            <a href="#"><Image src="/img/doctors/doctor-thumb-02.jpg" alt="Post Author" /> <span>Dr. Ganesh K</span></a>
+                                            <a href="#"><img src="/img/doctors/doctor-thumb-02.jpg" alt="Post Author" /> <span>Dr. Ganesh K</span></a>
                                         </div>
                                     </li>
                                     <li><i className="far fa-clock"></i> 23 Jan 2023</li>
@@ -499,13 +498,13 @@ const Index = () => {
 
                         <div className="blog grid-blog">
                             <div className="blog-image">
-                                <a href="#"><Image className="img-fluid" src="/img/blog/blog-03.jpg" alt="Post Image" /></a>
+                                <a href="#"><img className="img-fluid" src="/img/blog/blog-03.jpg" alt="Post Image" /></a>
                             </div>
                             <div className="blog-content">
                                 <ul className="entry-meta meta-item">
                                     <li>
                                         <div className="post-author">
-                                            <a href="#"><Image src="/img/doctors/doctor-thumb-03.jpg" alt="Post Author" /> <span>Dr. Nisha Verma</span></a>
+                                            <a href="#"><img src="/img/doctors/doctor-thumb-03.jpg" alt="Post Author" /> <span>Dr. Nisha Verma</span></a>
                                         </div>
                                     </li>
                                     <li><i className="far fa-clock"></i> 12 July 2023</li>
@@ -520,13 +519,13 @@ const Index = () => {
 
                         <div className="blog grid-blog">
                             <div className="blog-image">
-                                <a href="#"><Image className="img-fluid" src="/img/blog/blog-04.jpg" alt="Post Image" /></a>
+                                <a href="#"><img className="img-fluid" src="/img/blog/blog-04.jpg" alt="Post Image" /></a>
                             </div>
                             <div className="blog-content">
                                 <ul className="entry-meta meta-item">
                                     <li>
                                         <div className="post-author">
-                                            <a href="#"><Image src="/img/doctors/doctor-thumb-04.jpg" alt="Post Author" /> <span>Dr. Vidya B</span></a>
+                                            <a href="#"><img src="/img/doctors/doctor-thumb-04.jpg" alt="Post Author" /> <span>Dr. Vidya B</span></a>
                                         </div>
                                     </li>
                                     <li><i className="far fa-clock"></i> 21 Feb 2023</li>

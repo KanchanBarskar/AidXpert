@@ -1,5 +1,4 @@
 "use client";
-import Image from "next/image";
 import { useSession, signIn } from "next-auth/react";
 import { useRouter } from "next/navigation";
 import { useEffect, useState } from "react";
@@ -58,10 +57,10 @@ const Login = () => {
             <div className="account-content">
               <div className="login-shapes">
                 <div className="shape-img-left">
-                  <Image src="/img/shape-01.png" alt="" width={60} height={60} />
+                  <img src="/img/shape-01.png" alt="" width={60} height={60} />
                 </div>
                 <div className="shape-img-right">
-                  <Image src="/img/shape-02.png" alt="" width={60} height={60} />
+                  <img src="/img/shape-02.png" alt="" width={60} height={60} />
                 </div>
               </div>
               <div className="account-info">
@@ -128,7 +127,7 @@ const Login = () => {
                       className="btn btn-block"
                       onClick={() => signIn("google")}
                     >
-                      <Image src="/img/icons/google-icon.svg" alt="" width={20} height={20} /> Log in with Google
+                      <img src="/img/icons/google-icon.svg" alt="" width={20} height={20} /> Log in with Google
                     </button>
                   </div>
                   <div className="account-signup">

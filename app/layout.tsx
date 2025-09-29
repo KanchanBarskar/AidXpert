@@ -47,6 +47,8 @@ export default function RootLayout({
         <Script src="/js/profile-settings.js" strategy="afterInteractive" />
         <Script src="/plugins/intltelinput/js/intlTelInput.js" strategy="afterInteractive"/>
         <Script src="/plugins/intltelinput/js/utils.js" strategy="afterInteractive"/>
+        <Script src="/plugins/theia-sticky-sidebar/theia-sticky-sidebar.js" strategy="afterInteractive"/>
+         <Script src="/plugins/theia-sticky-sidebar/ResizeSensor.js" strategy="afterInteractive"/>
         <Script src="/js/script.js" strategy="afterInteractive" />
       </body>
     </html>

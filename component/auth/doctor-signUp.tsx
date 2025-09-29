@@ -150,7 +150,7 @@ const DoctorSignUp: React.FC = () => {
                                                 </fieldset>
                                                 <fieldset className="field-card">
                                                     <div className="login-back">
-                                                        <a href="javascript:void(0);" className="prev_btn">
+                                                        <a href="#" className="prev_btn">
                                                             <i className="fa-solid fa-arrow-left-long"></i> Back
                                                         </a>
                                                     </div>
@@ -192,7 +192,7 @@ const DoctorSignUp: React.FC = () => {
                                                         <div className="form-group">
                                                             <div className="form-group-flex">
                                                                 <label>Phone Number Verfication Code</label>
-                                                                <a href="javascript:void(0);" className="forgot-link">Get Code</a>
+                                                                <a href="#" className="forgot-link">Get Code</a>
                                                             </div>
                                                             <div className="pass-group">
                                                                 <input className="form-control form-control-lg group_formcontrol form-control-phone" id="phone-number" name="phone-number" type="text"/>
@@ -202,7 +202,7 @@ const DoctorSignUp: React.FC = () => {
                                                         <div className="form-group">
                                                             <div className="form-group-flex">
                                                                 <label>Email Verfication Code</label>
-                                                                <a href="javascript:void(0);" className="forgot-link">Get Code</a>
+                                                                <a href="#" className="forgot-link">Get Code</a>
                                                             </div>
                                                             <div className="pass-group">
                                                                 <input type="text" className="form-control form-control-phone" placeholder=""/>

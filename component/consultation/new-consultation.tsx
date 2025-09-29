@@ -1,5 +1,4 @@
 import React from "react";
-import Image from "next/image";
 
 
 const NewConsultation = () => {
@@ -23,7 +22,7 @@ const NewConsultation = () => {
 <div className="container-fluid mt-5 mb-5">
     <div className="row">
         <div className="col-md-7 col-lg-7 login-left">
-            <Image src="/img/newconsult.jpg" className="img-fluid" alt="Login"/>
+            <img src="/img/newconsult.jpg" className="img-fluid" alt="Login"/>
             </div>
 
 
@@ -67,13 +66,13 @@ const NewConsultation = () => {
                     </div>
                     <div className="avatar-group" style={{paddingBottom: "10px"}}>
                         <div className="avatar">
-                        <Image className="avatar-img rounded-circle border border-white" alt="User Image" src="/img/doctors/doctor-01.jpg"/>
+                        <img className="avatar-img rounded-circle border border-white" alt="User Image" src="/img/doctors/doctor-01.jpg"/>
                         </div>
                         <div className="avatar">
-                        <Image className="avatar-img rounded-circle border border-white" alt="User Image" src="/img/doctors/doctor-02.jpg"/>
+                        <img className="avatar-img rounded-circle border border-white" alt="User Image" src="/img/doctors/doctor-02.jpg"/>
                         </div>
                         <div className="avatar">
-                        <Image className="avatar-img rounded-circle border border-white" alt="User Image" src="/img/doctors/doctor-03.jpg"/>
+                        <img className="avatar-img rounded-circle border border-white" alt="User Image" src="/img/doctors/doctor-03.jpg"/>
                         </div>
                         
                     </div>

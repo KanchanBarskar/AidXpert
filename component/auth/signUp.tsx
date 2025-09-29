@@ -1,5 +1,4 @@
 import React from "react";
-import Image from "next/image";
 
 const SignUp = () => {
     return (
@@ -12,10 +11,10 @@ const SignUp = () => {
                             <div className="account-content">
                                 <div className="login-shapes">
                                     <div className="shape-img-left">
-                                        <Image src="/img/shape-01.png" alt="" />
+                                        <img src="/img/shape-01.png" alt="" />
                                     </div>
                                     <div className="shape-img-right">
-                                        <Image src="/img/shape-02.png" alt="" />
+                                        <img src="/img/shape-02.png" alt="" />
                                     </div>
                                 </div>
                                 <div className="account-info">
@@ -29,7 +28,7 @@ const SignUp = () => {
                                         <a href="/signUp/doctor" className="signup-btn-info">
                                             <div className="signup-info">
                                                 <div className="signup-icon">
-                                                    <Image src="/img/icons/doctor.png" alt="" />
+                                                    <img src="/img/icons/doctor.png" alt="" />
                                                 </div>
                                                 <div className="signup-content">
                                                     <h4>Doctor</h4>
@@ -43,7 +42,7 @@ const SignUp = () => {
                                         <a href="/signUp/patient" className="signup-btn-info">
                                             <div className="signup-info">
                                                 <div className="signup-icon">
-                                                    <Image src="/img/icons/patient.png" alt="" />
+                                                    <img src="/img/icons/patient.png" alt="" />
                                                 </div>
                                                 <div className="signup-content">
                                                     <h4>Patient</h4>

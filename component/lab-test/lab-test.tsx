@@ -1,5 +1,4 @@
 import React from "react";
-import Image from "next/image";
 import "../../styles/globals.css";
 
 const LabTest = () => {
@@ -19,7 +18,7 @@ const LabTest = () => {
           </div>
           <div className="col-lg-6">
             <div className="banner-img aos" data-aos="fade-up">
-              <Image src="/img/bg/home-10-banner-img.png" className="img-fluid" alt="" />
+              <img src="/img/bg/home-10-banner-img.png" className="img-fluid" alt="" />
             </div>
           </div>
           <div className="col-md-12">
@@ -138,7 +137,7 @@ const LabTest = () => {
             <li>
               <div className="specialities-item">
                 <div className="specialities-img">
-                  <div className="hexogen"><Image src="/img/bg/tick.png" alt="" /></div>
+                  <div className="hexogen"><img src="/img/bg/tick.png" alt="" /></div>
                 </div>
                 <p>Free Sample Collection</p>
               </div>
@@ -146,7 +145,7 @@ const LabTest = () => {
             <li>
               <div className="specialities-item">
                 <div className="specialities-img">
-                  <div className="hexogen"><Image src="/img/bg/tick.png" alt="" /></div>
+                  <div className="hexogen"><img src="/img/bg/tick.png" alt="" /></div>
                 </div>
                 <p>Free Report Consultation</p>
               </div>
@@ -154,7 +153,7 @@ const LabTest = () => {
             <li>
               <div className="specialities-item">
                 <div className="specialities-img">
-                  <div className="hexogen"><Image src="/img/bg/tick.png" alt="" /></div>
+                  <div className="hexogen"><img src="/img/bg/tick.png" alt="" /></div>
                 </div>
                 <p>Fast & Accurate
                   Test Reports</p>
@@ -163,7 +162,7 @@ const LabTest = () => {
             <li>
               <div className="specialities-item">
                 <div className="specialities-img">
-                  <div className="hexogen"><Image src="/img/bg/tick.png" alt="" /></div>
+                  <div className="hexogen"><img src="/img/bg/tick.png" alt="" /></div>
                 </div>
                 <p>20 Lakh+ Satisfied
                   Customers</p>
@@ -172,7 +171,7 @@ const LabTest = () => {
             <li>
               <div className="specialities-item">
                 <div className="specialities-img">
-                  <div className="hexogen"><Image src="/img/bg/tick.png" alt="" /></div>
+                  <div className="hexogen"><img src="/img/bg/tick.png" alt="" /></div>
                 </div>
                 <p>Best Prices Guaranteed</p>
               </div>
@@ -188,7 +187,7 @@ const LabTest = () => {
           <div className="row">
             <div className="col-lg-5">
               <div className="feedback-inner-main">
-                <Image src="/img/feedback-fifteen.png" alt="image" className="img-fluid" />
+                <img src="/img/feedback-fifteen.png" alt="image" className="img-fluid" />
               </div>
             </div>
             <div className="col-lg-7">
@@ -219,9 +218,9 @@ const LabTest = () => {
           <div className="col-md-6 col-sm-12 col-lg-4">
             <div className="listing-card">
               <div className="listing-img">
-                <a href="test-description.html"><Image src="/img/features/feature-07.jpg" className="img-fluid" alt="" /></a>
+                <a href="test-description.html"><img src="/img/features/feature-07.jpg" className="img-fluid" alt="" /></a>
                 <div className="fav-item">
-                  <a href="javascript:void(0)" className="fav-icon">
+                  <a href="#" className="fav-icon">
                     <i className="fa fa-heart"></i>
                   </a>
                 </div>
@@ -251,9 +250,9 @@ const LabTest = () => {
           <div className="col-md-6 col-sm-12 col-lg-4">
             <div className="listing-card">
               <div className="listing-img">
-                <a href="test-description.html"><Image src="/img/features/feature-07.jpg" className="img-fluid" alt="" /></a>
+                <a href="test-description.html"><img src="/img/features/feature-07.jpg" className="img-fluid" alt="" /></a>
                 <div className="fav-item">
-                  <a href="javascript:void(0)" className="fav-icon">
+                  <a href="#" className="fav-icon">
                     <i className="fa fa-heart"></i>
                   </a>
                 </div>
@@ -283,9 +282,9 @@ const LabTest = () => {
           <div className="col-md-6 col-sm-12 col-lg-4">
             <div className="listing-card">
               <div className="listing-img">
-                <a href="test-description.html"><Image src="/img/features/feature-07.jpg" className="img-fluid" alt="" /></a>
+                <a href="test-description.html"><img src="/img/features/feature-07.jpg" className="img-fluid" alt="" /></a>
                 <div className="fav-item">
-                  <a href="javascript:void(0)" className="fav-icon">
+                  <a href="#" className="fav-icon">
                     <i className="fa fa-heart"></i>
                   </a>
                 </div>
@@ -315,9 +314,9 @@ const LabTest = () => {
           <div className="col-md-6 col-sm-12 col-lg-4">
             <div className="listing-card">
               <div className="listing-img">
-                <a href="test-description.html"><Image src="/img/features/feature-07.jpg" className="img-fluid" alt="" /></a>
+                <a href="test-description.html"><img src="/img/features/feature-07.jpg" className="img-fluid" alt="" /></a>
                 <div className="fav-item">
-                  <a href="javascript:void(0)" className="fav-icon">
+                  <a href="#" className="fav-icon">
                     <i className="fa fa-heart"></i>
                   </a>
                 </div>
@@ -347,9 +346,9 @@ const LabTest = () => {
           <div className="col-md-6 col-sm-12 col-lg-4">
             <div className="listing-card">
               <div className="listing-img">
-                <a href="test-description.html"><Image src="/img/features/feature-07.jpg" className="img-fluid" alt="" /></a>
+                <a href="test-description.html"><img src="/img/features/feature-07.jpg" className="img-fluid" alt="" /></a>
                 <div className="fav-item">
-                  <a href="javascript:void(0)" className="fav-icon">
+                  <a href="#" className="fav-icon">
                     <i className="fa fa-heart"></i>
                   </a>
                 </div>
@@ -379,9 +378,9 @@ const LabTest = () => {
           <div className="col-md-6 col-sm-12 col-lg-4">
             <div className="listing-card">
               <div className="listing-img">
-                <a href="test-description.html"><Image src="/img/features/feature-07.jpg" className="img-fluid" alt="" /></a>
+                <a href="test-description.html"><img src="/img/features/feature-07.jpg" className="img-fluid" alt="" /></a>
                 <div className="fav-item">
-                  <a href="javascript:void(0)" className="fav-icon">
+                  <a href="#" className="fav-icon">
                     <i className="fa fa-heart"></i>
                   </a>
                 </div>
@@ -661,7 +660,7 @@ const LabTest = () => {
 
             <div className="speicality-item text-center">
               <a href="lab-oragn-specific-test.html"><div className="speicality-img">
-                <Image src="/img/specialities/specialities-01.png" className="img-fluid" alt="Speciality" />
+                <img src="/img/specialities/specialities-01.png" className="img-fluid" alt="Speciality" />
                 <span><i className="fa fa-circle" aria-hidden="true"></i></span>
               </div></a>
 
@@ -672,7 +671,7 @@ const LabTest = () => {
             <div className="speicality-item text-center">
 
               <a href="lab-oragn-specific-test.html"><div className="speicality-img">
-                <Image src="/img/specialities/specialities-02.png" className="img-fluid" alt="Speciality" />
+                <img src="/img/specialities/specialities-02.png" className="img-fluid" alt="Speciality" />
                 <span><i className="fa fa-circle" aria-hidden="true"></i></span>
               </div></a>
               <a href="lab-oragn-specific-test.html">Brain</a>
@@ -681,7 +680,7 @@ const LabTest = () => {
 
             <div className="speicality-item text-center">
               <a href="lab-oragn-specific-test.html"><div className="speicality-img">
-                <Image src="/img/specialities/specialities-03.png" className="img-fluid" alt="Speciality" />
+                <img src="/img/specialities/specialities-03.png" className="img-fluid" alt="Speciality" />
                 <span><i className="fa fa-circle" aria-hidden="true"></i></span>
               </div></a>
               <a href="lab-oragn-specific-test.html">Bones, Joints, Ligaments</a>
@@ -690,7 +689,7 @@ const LabTest = () => {
 
             <div className="speicality-item text-center">
               <a href="lab-oragn-specific-test.html"><div className="speicality-img">
-                <Image src="/img/specialities/specialities-04.png" className="img-fluid" alt="Speciality" />
+                <img src="/img/specialities/specialities-04.png" className="img-fluid" alt="Speciality" />
                 <span><i className="fa fa-circle" aria-hidden="true"></i></span>
               </div></a>
               <a href="lab-oragn-specific-test.html">Heart</a>
@@ -698,7 +697,7 @@ const LabTest = () => {
 
             <div className="speicality-item text-center">
               <a href="lab-oragn-specific-test.html"><div className="speicality-img">
-                <Image src="/img/specialities/lungs.png" className="img-fluid" alt="Speciality" />
+                <img src="/img/specialities/lungs.png" className="img-fluid" alt="Speciality" />
                 <span><i className="fa fa-circle" aria-hidden="true"></i></span>
               </div></a>
               <a href="lab-oragn-specific-test.html">Lungs</a>
@@ -723,7 +722,7 @@ const LabTest = () => {
                   <div className="steps-list-box">
                     <div className="steps-list-img">
                       <span>1</span>
-                      <Image src="/img/icons/hreat-pulse.svg" className="img-fluid" alt="" />
+                      <img src="/img/icons/hreat-pulse.svg" className="img-fluid" alt="" />
                     </div>
                     <h6>Select Your Location & Test</h6>
                   </div>
@@ -732,7 +731,7 @@ const LabTest = () => {
                   <div className="steps-list-box">
                     <div className="steps-list-img">
                       <span>3</span>
-                      <Image src="/img/icons/hreat-pulse.svg" className="img-fluid" alt="" />
+                      <img src="/img/icons/hreat-pulse.svg" className="img-fluid" alt="" />
                     </div>
                     <h6>Testing Done at Lab</h6>
                   </div>
@@ -743,7 +742,7 @@ const LabTest = () => {
                   <div className="steps-list-box">
                     <div className="steps-list-img">
                       <span>2</span>
-                      <Image src="/img/icons/hreat-pulse.svg" className="img-fluid" alt="" />
+                      <img src="/img/icons/hreat-pulse.svg" className="img-fluid" alt="" />
                     </div>
 
                     <h6>Our Collection Agent Will Visit You</h6>
@@ -753,7 +752,7 @@ const LabTest = () => {
                   <div className="steps-list-box">
                     <div className="steps-list-img">
                       <span>4</span>
-                      <Image src="/img/icons/hreat-pulse.svg" className="img-fluid" alt="" />
+                      <img src="/img/icons/hreat-pulse.svg" className="img-fluid" alt="" />
                     </div>
                     <h6>View/Download Your Report Online</h6>
 
@@ -818,7 +817,7 @@ const LabTest = () => {
                 <div className="testimonial-card">
                   <div className="testimonial-user-details">
                     <div className="testimonial-user-img">
-                      <Image src="/img/clients/client-07.jpg" className="img-fluid" alt="" />
+                      <img src="/img/clients/client-07.jpg" className="img-fluid" alt="" />
                     </div>
                     <div className="testimonial-user-name">
                       <h5>
@@ -841,7 +840,7 @@ const LabTest = () => {
                 <div className="testimonial-card">
                   <div className="testimonial-user-details">
                     <div className="testimonial-user-img">
-                      <Image src="/img/clients/client-08.jpg" className="img-fluid" alt="" />
+                      <img src="/img/clients/client-08.jpg" className="img-fluid" alt="" />
                     </div>
                     <div className="testimonial-user-name">
                       <h5>
@@ -866,7 +865,7 @@ const LabTest = () => {
                 <div className="testimonial-card">
                   <div className="testimonial-user-details">
                     <div className="testimonial-user-img">
-                      <Image src="/img/clients/client-09.jpg" className="img-fluid" alt="" />
+                      <img src="/img/clients/client-09.jpg" className="img-fluid" alt="" />
                     </div>
                     <div className="testimonial-user-name">
                       <h5>

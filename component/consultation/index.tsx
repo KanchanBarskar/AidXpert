@@ -1,7 +1,5 @@
 import React from "react";
-import Image from "next/image";
 import "../../styles/globals.css";
-import Script from "next/script";
 
 const ConsulationIndex = () => {
   return (
@@ -14,7 +12,7 @@ const ConsulationIndex = () => {
                 <h1>
                   Consult Best Doctors Your Nearby Location.
                 </h1>
-                <Image
+                <img
                   src="/img/icons/header-icon.svg"
                   className="header-icon"
                   alt="header-icon"
@@ -24,7 +22,7 @@ const ConsulationIndex = () => {
                 <p>Get consultation for 50+ diseases across India</p>
                 <div className="card-body" style={{ paddingLeft: "0px" }}>
                   <h6>
-                    <Image
+                    <img
                       src="/img/satisfaction.png"
                       alt="img"
                       width={20}
@@ -34,7 +32,7 @@ const ConsulationIndex = () => {
                   </h6>
                   <div className="avatar-group">
                     <div className="avatar">
-                      <Image
+                      <img
                         className="avatar-img rounded-circle border border-white"
                         alt="User Image"
                         src="/img/doctors/doctor-01.jpg"
@@ -43,7 +41,7 @@ const ConsulationIndex = () => {
                       />
                     </div>
                     <div className="avatar">
-                      <Image
+                      <img
                         className="avatar-img rounded-circle border border-white"
                         alt="User Image"
                         src="/img/doctors/doctor-02.jpg"
@@ -52,7 +50,7 @@ const ConsulationIndex = () => {
                       />
                     </div>
                     <div className="avatar">
-                      <Image
+                      <img
                         className="avatar-img rounded-circle border border-white"
                         alt="User Image"
                         src="/img/doctors/doctor-03.jpg"
@@ -82,7 +80,7 @@ const ConsulationIndex = () => {
             </div>
             <div className="col-lg-6">
               <div className="banner-img aos" data-aos="fade-up">
-                <Image
+                <img
                   src="/img/doctor-optimized.png"
                   className="img-fluid"
                   alt="Doctor"
@@ -90,7 +88,7 @@ const ConsulationIndex = () => {
                   height={500}
                 />
                 <div className="banner-img1">
-                  <Image
+                  <img
                     src="/img/banner-img1.png"
                     className="img-fluid"
                     alt="Banner 1"
@@ -99,7 +97,7 @@ const ConsulationIndex = () => {
                   />
                 </div>
                 <div className="banner-img2">
-                  <Image
+                  <img
                     src="/img/banner-img2.png"
                     className="img-fluid"
                     alt="Banner 2"
@@ -118,8 +116,8 @@ const ConsulationIndex = () => {
           <div className="partners-info aos" data-aos="fade-up">
             <ul className="owl-carousel partners-slider d-flex">
               <li>
-                <a href="javascript:void(0);">
-                  <Image
+                <a href="#">
+                  <img
                     className="img-fluid"
                     src="/img/partners/forbes.png"
                     alt="partners"
@@ -127,8 +125,8 @@ const ConsulationIndex = () => {
                 </a>
               </li>
               <li>
-                <a href="javascript:void(0);">
-                  <Image
+                <a href="#">
+                  <img
                     className="img-fluid"
                     src="/img/partners/tech-crunch.png"
                     alt="partners"
@@ -136,8 +134,8 @@ const ConsulationIndex = () => {
                 </a>
               </li>
               <li>
-                <a href="javascript:void(0);">
-                  <Image
+                <a href="#">
+                  <img
                     className="img-fluid"
                     src="/img/partners/RHC_SWH.png"
                     alt="partners"
@@ -145,8 +143,8 @@ const ConsulationIndex = () => {
                 </a>
               </li>
               <li>
-                <a href="javascript:void(0);">
-                  <Image
+                <a href="#">
+                  <img
                     className="img-fluid"
                     src="/img/partners/theeco.png"
                     alt="partners"
@@ -154,8 +152,8 @@ const ConsulationIndex = () => {
                 </a>
               </li>
               <li>
-                <a href="javascript:void(0);">
-                  <Image
+                <a href="#">
+                  <img
                     className="img-fluid"
                     src="/img/partners/for.png"
                     alt="partners"
@@ -163,8 +161,8 @@ const ConsulationIndex = () => {
                 </a>
               </li>
               <li>
-                <a href="javascript:void(0);">
-                  <Image
+                <a href="#">
+                  <img
                     className="img-fluid"
                     src="/img/partners/forbes.png"
                     alt="partners"
@@ -172,8 +170,8 @@ const ConsulationIndex = () => {
                 </a>
               </li>
               <li>
-                <a href="javascript:void(0);">
-                  <Image
+                <a href="#">
+                  <img
                     className="img-fluid"
                     src="/img/partners/tech-crunch.png"
                     alt="partners"
@@ -181,8 +179,8 @@ const ConsulationIndex = () => {
                 </a>
               </li>
               <li>
-                <a href="javascript:void(0);">
-                  <Image
+                <a href="#">
+                  <img
                     className="img-fluid"
                     src="/img/partners/RHC_SWH.png"
                     alt="partners"
@@ -190,8 +188,8 @@ const ConsulationIndex = () => {
                 </a>
               </li>
               <li>
-                <a href="javascript:void(0);">
-                  <Image
+                <a href="#">
+                  <img
                     className="img-fluid"
                     src="/img/partners/theeco.png"
                     alt="partners"
@@ -199,8 +197,8 @@ const ConsulationIndex = () => {
                 </a>
               </li>
               <li>
-                <a href="javascript:void(0);">
-                  <Image
+                <a href="#">
+                  <img
                     className="img-fluid"
                     src="/img/partners/for.png"
                     alt="partners"
@@ -229,7 +227,7 @@ const ConsulationIndex = () => {
               <div className="specialities-item">
                 <a href="/consult/new-consultation">
                   <span>
-                    <Image
+                    <img
                       className="specialities-img"
                       src="/img/specialities/1.png"
                       alt=""
@@ -252,7 +250,7 @@ const ConsulationIndex = () => {
               <div className="specialities-item">
                 <a href="/consult/new-consultation">
                   <span>
-                    <Image
+                    <img
                       className="specialities-img"
                       src="/img/specialities/2.png"
                       alt=""
@@ -275,7 +273,7 @@ const ConsulationIndex = () => {
               <div className="specialities-item">
                 <a href="/consult/new-consultation">
                   <span>
-                    <Image
+                    <img
                       className="specialities-img"
                       src="/img/specialities/3.png"
                       alt=""
@@ -298,7 +296,7 @@ const ConsulationIndex = () => {
               <div className="specialities-item">
                 <a href="/consult/new-consultation">
                   <span>
-                    <Image
+                    <img
                       className="specialities-img"
                       src="/img/specialities/5.png"
                       alt=""
@@ -319,16 +317,14 @@ const ConsulationIndex = () => {
             </div>
             <div className="item">
               <div className="specialities-item">
-                <a href="/consult/new-consultation">
-                  <a href="search.html">
-                    <span>
-                      <Image
-                        className="specialities-img"
-                        src="/img/specialities/4.png"
-                        alt=""
-                      />
-                    </span>
-                  </a>
+                <a href="search.html">
+                  <span>
+                    <img
+                      className="specialities-img"
+                      src="/img/specialities/4.png"
+                      alt=""
+                    />
+                  </span>
                 </a>
                 <p>
                   <a href="/consult/new-consultation">Dentist</a>
@@ -346,7 +342,7 @@ const ConsulationIndex = () => {
               <div className="specialities-item">
                 <a href="/consult/new-consultation">
                   <span>
-                    <Image
+                    <img
                       className="specialities-img"
                       src="/img/specialities/6.png"
                       alt=""
@@ -367,16 +363,14 @@ const ConsulationIndex = () => {
             </div>
             <div className="item">
               <div className="specialities-item">
-                <a href="/consult/new-consultation">
-                  <a href="search.html">
-                    <span>
-                      <Image
-                        className="specialities-img"
-                        src="/img/specialities/2.png"
-                        alt=""
-                      />
-                    </span>
-                  </a>
+                <a href="search.html">
+                  <span>
+                    <img
+                      className="specialities-img"
+                      src="/img/specialities/2.png"
+                      alt=""
+                    />
+                  </span>
                 </a>
                 <p>
                   <a href="/consult/new-consultation">Neurology</a>
@@ -418,13 +412,13 @@ const ConsulationIndex = () => {
               <div className="doctor-profile-widget">
                 <div className="doc-pro-img">
                   <a href="doctor-profile.html">
-                    <style className="doctor-profile-img">
-                      <Image
+                    <div className="doctor-profile-img">
+                      <img
                         src="/img/doctors/doctor-03.jpg"
                         className="img-fluid"
                         alt=""
                       />
-                    </style>
+                    </div>
                   </a>
                   <div className="doctor-amount">
                     <span>Rs. 500/-</span>
@@ -458,13 +452,13 @@ const ConsulationIndex = () => {
               <div className="doctor-profile-widget">
                 <div className="doc-pro-img">
                   <a href="doctor-profile.html">
-                    <style className="doctor-profile-img">
-                      <Image
+                    <div className="doctor-profile-img">
+                      <img
                         src="/img/doctors/doctor-04.jpg"
                         className="img-fluid"
                         alt=""
                       />
-                    </style>
+                    </div>
                   </a>
                   <div className="doctor-amount">
                     <span>Rs. 500/-</span>
@@ -498,13 +492,13 @@ const ConsulationIndex = () => {
               <div className="doctor-profile-widget">
                 <div className="doc-pro-img">
                   <a href="doctor-profile.html">
-                    <style className="doctor-profile-img">
-                      <Image
+                    <div className="doctor-profile-img">
+                      <img
                         src="/img/doctors/doctor-05.jpg"
                         className="img-fluid"
                         alt=""
                       />
-                    </style>
+                    </div>
                   </a>
                   <div className="doctor-amount">
                     <span>Rs. 600/-</span>
@@ -538,13 +532,13 @@ const ConsulationIndex = () => {
               <div className="doctor-profile-widget">
                 <div className="doc-pro-img">
                   <a href="doctor-profile.html">
-                    <style className="doctor-profile-img">
-                      <Image
+                    <div className="doctor-profile-img">
+                      <img
                         src="/img/doctors/doctor-02.jpg"
                         className="img-fluid"
                         alt=""
                       />
-                    </style>
+                    </div>
                   </a>
                   <div className="doctor-amount">
                     <span>Rs. 500/-</span>
@@ -578,13 +572,13 @@ const ConsulationIndex = () => {
               <div className="doctor-profile-widget">
                 <div className="doc-pro-img">
                   <a href="doctor-profile.html">
-                    <style className="doctor-profile-img">
-                      <Image
+                    <div className="doctor-profile-img">
+                      <img
                         src="/img/doctors/doctor-01.jpg"
                         className="img-fluid"
                         alt=""
                       />
-                    </style>
+                    </div>
                   </a>
                   <div className="doctor-amount">
                     <span>Rs. 800/-</span>
@@ -622,7 +616,7 @@ const ConsulationIndex = () => {
           <div className="row">
             <div className="col-lg-4 col-md-12 work-img-info aos" data-aos="fade-up">
               <div className="work-img">
-                <Image src="/img/work-img.png" className="img-fluid" alt="" />
+                <img src="/img/work-img.png" className="img-fluid" alt="" />
               </div>
             </div>
             <div className="col-lg-8 col-md-12 work-details">
@@ -634,7 +628,7 @@ const ConsulationIndex = () => {
                 <div className="col-lg-6 col-md-6 aos" data-aos="fade-up">
                   <div className="work-info">
                     <div className="work-icon">
-                      <span><Image src="/img/icons/work-01.svg" alt="" /></span>
+                      <span><img src="/img/icons/work-01.svg" alt="" /></span>
                     </div>
                     <div className="work-content">
                       <h5>Search Doctor</h5>
@@ -645,7 +639,7 @@ const ConsulationIndex = () => {
                 <div className="col-lg-6 col-md-6 aos" data-aos="fade-up">
                   <div className="work-info">
                     <div className="work-icon">
-                      <span><Image src="/img/icons/work-02.svg" alt="" /></span>
+                      <span><img src="/img/icons/work-02.svg" alt="" /></span>
                     </div>
                     <div className="work-content">
                       <h5>Check Doctor Profile</h5>
@@ -656,7 +650,7 @@ const ConsulationIndex = () => {
                 <div className="col-lg-6 col-md-6 aos" data-aos="fade-up">
                   <div className="work-info">
                     <div className="work-icon">
-                      <span><Image src="/img/icons/work-03.svg" alt="" /></span>
+                      <span><img src="/img/icons/work-03.svg" alt="" /></span>
                     </div>
                     <div className="work-content">
                       <h5>Schedule Appointment</h5>
@@ -667,7 +661,7 @@ const ConsulationIndex = () => {
                 <div className="col-lg-6 col-md-6 aos" data-aos="fade-up">
                   <div className="work-info">
                     <div className="work-icon">
-                      <span><Image src="/img/icons/work-04.svg" alt="" /></span>
+                      <span><img src="/img/icons/work-04.svg" alt="" /></span>
                     </div>
                     <div className="work-content">
                       <h5>Get Your Solution</h5>
@@ -683,10 +677,10 @@ const ConsulationIndex = () => {
       <section className="testimonial-section">
         <div className="testimonial-shape-img">
           <div className="testimonial-shape-left">
-            <Image src="/img/shape-04.png" alt="" />
+            <img src="/img/shape-04.png" alt="" />
           </div>
           <div className="testimonial-shape-right">
-            <Image src="/img/shape-05.png" alt="" />
+            <img src="/img/shape-05.png" alt="" />
           </div>
         </div>
         <div className="container">
@@ -696,7 +690,7 @@ const ConsulationIndex = () => {
                 <div className="testimonial-grid">
                   <div className="testimonial-info">
                     <div className="testimonial-img">
-                      <Image src="/img/clients/client-01.jpg" className="img-fluid" alt="" />
+                      <img src="/img/clients/client-01.jpg" className="img-fluid" alt="" />
                     </div>
                     <div className="testimonial-content">
                       <div className="section-inner-header testimonial-header">
@@ -714,7 +708,7 @@ const ConsulationIndex = () => {
                 <div className="testimonial-grid">
                   <div className="testimonial-info">
                     <div className="testimonial-img">
-                      <Image src="/img/clients/client-02.jpg" className="img-fluid" alt="" />
+                      <img src="/img/clients/client-02.jpg" className="img-fluid" alt="" />
                     </div>
                     <div className="testimonial-content">
                       <div className="section-inner-header testimonial-header">
@@ -731,7 +725,7 @@ const ConsulationIndex = () => {
                 <div className="testimonial-grid">
                   <div className="testimonial-info">
                     <div className="testimonial-img">
-                      <Image src="/img/clients/client-03.jpg" className="img-fluid" alt="" />
+                      <img src="/img/clients/client-03.jpg" className="img-fluid" alt="" />
                     </div>
                     <div className="testimonial-content">
                       <div className="section-inner-header testimonial-header">
@@ -763,17 +757,17 @@ const ConsulationIndex = () => {
                   </div>
                   <div className="app-scan aos" data-aos="fade-up">
                     <p>Scan the QR code to get the app now</p>
-                    <Image src="/img/scan-img.png" alt="" />
+                    <img src="/img/scan-img.png" alt="" />
                   </div>
                   <div className="google-imgs aos" data-aos="fade-up">
-                    <a href="javascript:void(0);"><Image src="/img/google-play.png" alt="img" /></a>
-                    <a href="javascript:void(0);"><Image src="/img/app-store.png" alt="img" /></a>
+                    <a href="#"><img src="/img/google-play.png" alt="img" /></a>
+                    <a href="#"><img src="/img/app-store.png" alt="img" /></a>
                   </div>
                 </div>
               </div>
               <div className="col-lg-6 col-md-12 aos" data-aos="fade-up">
                 <div className="mobile-img">
-                  <Image src="/img/mobile-img.png" className="img-fluid" alt="img" />
+                  <img src="/img/mobile-img.png" className="img-fluid" alt="img" />
                 </div>
               </div>
             </div>
@@ -794,10 +788,10 @@ const ConsulationIndex = () => {
           <div className="row align-items-center">
             <div className="col-lg-6 col-md-12 aos" data-aos="fade-up">
               <div className="faq-img">
-                <Image src="/img/faq-img.png" className="img-fluid" alt="img" />
+                <img src="/img/faq-img.png" className="img-fluid" alt="img" />
                 <div className="faq-patients-count">
                   <div className="faq-smile-img">
-                    <Image src="/img/icons/smiling-icon.svg" alt="icon" />
+                    <img src="/img/icons/smiling-icon.svg" alt="icon" />
                   </div>
                   <div className="faq-patients-content">
                     <h4><span className="count-digit">95</span>k+</h4>
@@ -812,7 +806,7 @@ const ConsulationIndex = () => {
 
                   <div className="accordion-item">
                     <h2 className="accordion-header" id="headingOne">
-                      <a href="javascript:void(0);" className="accordion-button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                      <a href="#" className="accordion-button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                         What is online doctor consultation?
                       </a>
                     </h2>
@@ -827,7 +821,7 @@ const ConsulationIndex = () => {
 
                   <div className="accordion-item">
                     <h2 className="accordion-header" id="headingTwo">
-                      <a href="javascript:void(0);" className="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                      <a href="#" className="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                         How do I start online consultation with doctors on AidXpert?
                       </a>
                     </h2>
@@ -842,7 +836,7 @@ const ConsulationIndex = () => {
 
                   <div className="accordion-item">
                     <h2 className="accordion-header" id="headingThree">
-                      <a href="javascript:void(0);" className="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                      <a href="#" className="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                         Are your online doctors qualified?
                       </a>
                     </h2>
@@ -857,7 +851,7 @@ const ConsulationIndex = () => {
 
                   <div className="accordion-item">
                     <h2 className="accordion-header" id="headingFour">
-                      <a href="javascript:void(0);" className="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                      <a href="#" className="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
                         Is online doctor consultation safe and secured on AidXpert?
                       </a>
                     </h2>
@@ -872,7 +866,7 @@ const ConsulationIndex = () => {
 
                   <div className="accordion-item">
                     <h2 className="accordion-header" id="headingFive">
-                      <a href="javascript:void(0);" className="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                      <a href="#" className="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
                         What happens if I don’t get a response from a doctor?
                       </a>
                     </h2>

@@ -1,8 +1,6 @@
 "use client";
 import React from "react";
-import Image from "next/image";
 import "../../styles/globals.css";
-import Script from "next/script";
 
 const Surgeries = () => {
   return (<>
@@ -55,7 +53,7 @@ const Surgeries = () => {
 
       <section className="section services">
         <div className="service-right">
-          <Image src="/img/bg/service-right.svg" className="img-fluid" alt="services right" />
+          <img src="/img/bg/service-right.svg" className="img-fluid" alt="services right" />
         </div>
         <div className="container">
 
@@ -69,7 +67,7 @@ const Surgeries = () => {
               <div className="col-lg-3 col-md-3 col-12" data-aos="fade-down">
                 <div className="services-group">
                   <div className="services-icon border-secondary">
-                    <Image className="icon-img bg-secondary" src="/img/icons/services-icon-01.svg" alt="Choose Locations" />
+                    <img className="icon-img bg-secondary" src="/img/icons/services-icon-01.svg" alt="Choose Locations" />
                   </div>
                   <div className="services-content">
                     <h3>1. Connect with <br />Our Expert</h3>
@@ -80,7 +78,7 @@ const Surgeries = () => {
               <div className="col-lg-3 col-md-3 col-12" data-aos="fade-down">
                 <div className="services-group">
                   <div className="services-icon border-secondary">
-                    <Image className="icon-img bg-secondary" src="/img/icons/services-icon-01.svg" alt="Choose Locations" />
+                    <img className="icon-img bg-secondary" src="/img/icons/services-icon-01.svg" alt="Choose Locations" />
                   </div>
                   <div className="services-content">
                     <h3>2. Hospital & Doctor Recommendations</h3>
@@ -91,7 +89,7 @@ const Surgeries = () => {
               <div className="col-lg-3 col-md-3 col-12" data-aos="fade-down">
                 <div className="services-group">
                   <div className="services-icon border-secondary">
-                    <Image className="icon-img bg-secondary" src="/img/icons/services-icon-01.svg" alt="Choose Locations" />
+                    <img className="icon-img bg-secondary" src="/img/icons/services-icon-01.svg" alt="Choose Locations" />
                   </div>
                   <div className="services-content">
                     <h3>3. Treatment for <br />Surgery</h3>
@@ -102,7 +100,7 @@ const Surgeries = () => {
               <div className="col-lg-3 col-md-3 col-12" data-aos="fade-down">
                 <div className="services-group">
                   <div className="services-icon border-secondary">
-                    <Image className="icon-img bg-secondary" src="/img/icons/services-icon-01.svg" alt="Choose Locations" />
+                    <img className="icon-img bg-secondary" src="/img/icons/services-icon-01.svg" alt="Choose Locations" />
                   </div>
                   <div className="services-content">
                     <h3>4. Receive Post-Operative support</h3>
@@ -129,7 +127,7 @@ const Surgeries = () => {
               <div className="brower-box">
                 <div>
                   <a data-bs-toggle="modal" data-bs-target="#Modalgetbootstrap"><div className="brower-img">
-                    <Image src="/img/shapes/chair.png" alt="" />
+                    <img src="/img/shapes/chair.png" alt="" />
                   </div></a>
                   <h4><a data-bs-toggle="modal" data-bs-target="#Modalgetbootstrap">Anal Fissure</a></h4>
                 </div>
@@ -139,7 +137,7 @@ const Surgeries = () => {
               <div className="brower-box">
                 <div>
                   <a data-bs-toggle="modal" data-bs-target="#Modalgetbootstrap"><div className="brower-img">
-                    <Image src="/img/shapes/blood.png" alt="" />
+                    <img src="/img/shapes/blood.png" alt="" />
                   </div></a>
                   <h4><a data-bs-toggle="modal" data-bs-target="#Modalgetbootstrap">Piles</a></h4>
                 </div>
@@ -149,7 +147,7 @@ const Surgeries = () => {
               <div className="brower-box">
                 <div>
                   <a data-bs-toggle="modal" data-bs-target="#Modalgetbootstrap"><div className="brower-img">
-                    <Image src="/img/shapes/inguinal-hernia.png" alt="" />
+                    <img src="/img/shapes/inguinal-hernia.png" alt="" />
                   </div></a>
                   <h4><a data-bs-toggle="modal" data-bs-target="#Modalgetbootstrap">Hernia</a></h4>
 
@@ -160,7 +158,7 @@ const Surgeries = () => {
               <div className="brower-box">
                 <div>
                   <a data-bs-toggle="modal" data-bs-target="#Modalgetbootstrap"><div className="brower-img">
-                    <Image src="/img/shapes/kidney-stone.png" alt="" />
+                    <img src="/img/shapes/kidney-stone.png" alt="" />
                   </div></a>
                   <h4><a data-bs-toggle="modal" data-bs-target="#Modalgetbootstrap">Kidney Stone</a></h4>
 
@@ -171,7 +169,7 @@ const Surgeries = () => {
               <div className="brower-box">
                 <div>
                   <a data-bs-toggle="modal" data-bs-target="#Modalgetbootstrap"><div className="brower-img">
-                    <Image src="/img/shapes/appendix.png" alt="" />
+                    <img src="/img/shapes/appendix.png" alt="" />
                   </div></a>
                   <h4><a data-bs-toggle="modal" data-bs-target="#Modalgetbootstrap">Appendix</a></h4>
 
@@ -182,7 +180,7 @@ const Surgeries = () => {
               <div className="brower-box">
                 <div>
                   <a data-bs-toggle="modal" data-bs-target="#Modalgetbootstrap"><div className="brower-img">
-                    <Image src="/img/shapes/cataract.png" alt="" />
+                    <img src="/img/shapes/cataract.png" alt="" />
                   </div></a>
                   <h4><a data-bs-toggle="modal" data-bs-target="#Modalgetbootstrap">Cataract</a></h4>
 
@@ -193,7 +191,7 @@ const Surgeries = () => {
               <div className="brower-box">
                 <div>
                   <a data-bs-toggle="modal" data-bs-target="#Modalgetbootstrap"><div className="brower-img">
-                    <Image src="/img/shapes/laser-surgery.png" alt="" />
+                    <img src="/img/shapes/laser-surgery.png" alt="" />
                   </div></a>
                   <h4><a data-bs-toggle="modal" data-bs-target="#Modalgetbootstrap">Lasik</a></h4>
 
@@ -204,7 +202,7 @@ const Surgeries = () => {
               <div className="brower-box">
                 <div>
                   <a data-bs-toggle="modal" data-bs-target="#Modalgetbootstrap"><div className="brower-img">
-                    <Image src="/img/shapes/varicose-veins.png" alt="" />
+                    <img src="/img/shapes/varicose-veins.png" alt="" />
                   </div></a>
                   <h4><a data-bs-toggle="modal" data-bs-target="#Modalgetbootstrap">Varicose Veins</a></h4>
 
@@ -215,7 +213,7 @@ const Surgeries = () => {
               <div className="brower-box">
                 <div>
                   <a data-bs-toggle="modal" data-bs-target="#Modalgetbootstrap"><div className="brower-img">
-                    <Image src="/img/shapes/gallstones.png" alt="" />
+                    <img src="/img/shapes/gallstones.png" alt="" />
                   </div></a>
                   <h4><a data-bs-toggle="modal" data-bs-target="#Modalgetbootstrap">Gallstone</a></h4>
 
@@ -226,7 +224,7 @@ const Surgeries = () => {
               <div className="brower-box">
                 <div>
                   <a data-bs-toggle="modal" data-bs-target="#Modalgetbootstrap"><div className="brower-img">
-                    <Image src="/img/shapes/abortion.png" alt="" />
+                    <img src="/img/shapes/abortion.png" alt="" />
                   </div></a>
                   <h4><a data-bs-toggle="modal" data-bs-target="#Modalgetbootstrap">Abortion</a></h4>
 
@@ -237,7 +235,7 @@ const Surgeries = () => {
               <div className="brower-box">
                 <div>
                   <a data-bs-toggle="modal" data-bs-target="#Modalgetbootstrap"><div className="brower-img">
-                    <Image src="/img/shapes/broken-bone.png" alt="" />
+                    <img src="/img/shapes/broken-bone.png" alt="" />
                   </div></a>
                   <h4><a data-bs-toggle="modal" data-bs-target="#Modalgetbootstrap">Knee Replacement</a></h4>
 
@@ -248,7 +246,7 @@ const Surgeries = () => {
               <div className="brower-box">
                 <div>
                   <a data-bs-toggle="modal" data-bs-target="#Modalgetbootstrap"><div className="brower-img">
-                    <Image src="/img/shapes/hip-replacement.png" alt="" />
+                    <img src="/img/shapes/hip-replacement.png" alt="" />
                   </div></a>
                   <h4><a data-bs-toggle="modal" data-bs-target="#Modalgetbootstrap">Hip Replacement</a></h4>
 
@@ -259,7 +257,7 @@ const Surgeries = () => {
               <div className="brower-box">
                 <div>
                   <a data-bs-toggle="modal" data-bs-target="#Modalgetbootstrap"><div className="brower-img">
-                    <Image src="/img/shapes/arthritis.png" alt="" />
+                    <img src="/img/shapes/arthritis.png" alt="" />
                   </div></a>
                   <h4><a data-bs-toggle="modal" data-bs-target="#Modalgetbootstrap">Arthroscopy</a></h4>
                 </div>
@@ -269,7 +267,7 @@ const Surgeries = () => {
               <div className="brower-box">
                 <div>
                   <a data-bs-toggle="modal" data-bs-target="#Modalgetbootstrap"><div className="brower-img">
-                    <Image src="/img/shapes/slim.png" alt="" />
+                    <img src="/img/shapes/slim.png" alt="" />
                   </div></a>
                   <h4><a data-bs-toggle="modal" data-bs-target="#Modalgetbootstrap">Lipoma Removal</a></h4>
 
@@ -280,7 +278,7 @@ const Surgeries = () => {
               <div className="brower-box">
                 <div>
                   <a data-bs-toggle="modal" data-bs-target="#Modalgetbootstrap"><div className="brower-img">
-                    <Image src="/img/shapes/hair-transplant.png" alt="" />
+                    <img src="/img/shapes/hair-transplant.png" alt="" />
                   </div></a>
                   <h4><a data-bs-toggle="modal" data-bs-target="#Modalgetbootstrap">Hair Transplant</a></h4>
 
@@ -291,7 +289,7 @@ const Surgeries = () => {
               <div className="brower-box">
                 <div>
                   <a data-bs-toggle="modal" data-bs-target="#Modalgetbootstrap"><div className="brower-img">
-                    <Image src="/img/shapes/chiropractic.png" alt="" />
+                    <img src="/img/shapes/chiropractic.png" alt="" />
                   </div></a>
                   <h4><a data-bs-toggle="modal" data-bs-target="#Modalgetbootstrap">Spine Surgery</a></h4>
 
@@ -302,7 +300,7 @@ const Surgeries = () => {
               <div className="brower-box">
                 <div>
                   <a data-bs-toggle="modal" data-bs-target="#Modalgetbootstrap"><div className="brower-img">
-                    <Image src="/img/shapes/implant.png" alt="" />
+                    <img src="/img/shapes/implant.png" alt="" />
                   </div></a>
                   <h4><a data-bs-toggle="modal" data-bs-target="#Modalgetbootstrap">Dental Implant</a></h4>
 
@@ -313,7 +311,7 @@ const Surgeries = () => {
               <div className="brower-box">
                 <div>
                   <a data-bs-toggle="modal" data-bs-target="#Modalgetbootstrap"><div className="brower-img">
-                    <Image src="/img/shapes/cancer.png" alt="" />
+                    <img src="/img/shapes/cancer.png" alt="" />
                   </div></a>
                   <h4><a data-bs-toggle="modal" data-bs-target="#Modalgetbootstrap">Cancer</a></h4>
 
@@ -326,10 +324,10 @@ const Surgeries = () => {
 
       <section className="section facts-number">
         <div className="facts-left">
-          <Image src="/img/banner-doc.png" className="img-fluid" alt="facts left" />
+          <img src="/img/banner-doc.png" className="img-fluid" alt="facts left" />
         </div>
         <div className="facts-right">
-          <Image src="/img/bg/facts-right.png" className="img-fluid" alt="facts right" />
+          <img src="/img/bg/facts-right.png" className="img-fluid" alt="facts right" />
         </div>
         <div className="container">
           <div className="section-heading" data-aos="fade-down">
@@ -346,7 +344,7 @@ const Surgeries = () => {
                 <div className="count-group flex-fill">
                   <div className="customer-count d-flex align-items-center">
                     <div className="count-img">
-                      <Image src="/img/icons/bx-heart.svg" alt="" />
+                      <img src="/img/icons/bx-heart.svg" alt="" />
                     </div>
                     <div className="count-content">
                       <h4><span className="counterUp">25</span>K+</h4>
@@ -361,7 +359,7 @@ const Surgeries = () => {
                 <div className="count-group flex-fill">
                   <div className="customer-count d-flex align-items-center">
                     <div className="count-img">
-                      <Image src="/img/icons/building.png" alt="" />
+                      <img src="/img/icons/building.png" alt="" />
                     </div>
                     <div className="count-content">
                       <h4><span className="counterUp">10</span>+</h4>
@@ -374,7 +372,7 @@ const Surgeries = () => {
                 <div className="count-group flex-fill">
                   <div className="customer-count d-flex align-items-center">
                     <div className="count-img">
-                      <Image src="/img/icons/doctor1.png" alt="" />
+                      <img src="/img/icons/doctor1.png" alt="" />
                     </div>
                     <div className="count-content">
                       <h4><span className="counterUp">240</span>+</h4>
@@ -391,7 +389,7 @@ const Surgeries = () => {
 
       <section className="section why-choose popular-explore" style={{ backgroundColor: "#F2F7F6" }}>
         <div className="choose-left">
-          <Image src="/img/bg/choose-left.png" className="img-fluid" alt="Why Choose Us" />
+          <img src="/img/bg/choose-left.png" className="img-fluid" alt="Why Choose Us" />
         </div>
         <div className="container">
 
@@ -404,7 +402,7 @@ const Surgeries = () => {
             <div className="col-lg-3 col-md-3 aos aos-init aos-animate">
               <div className="work-info">
                 <div className="work-icon">
-                  <span><Image src="/img/number-1.png" alt="" /></span>
+                  <span><img src="/img/number-1.png" alt="" /></span>
                 </div>
                 <div className="work-content">
                   <h5>Expert Surgeons</h5>
@@ -415,7 +413,7 @@ const Surgeries = () => {
             <div className="col-lg-3 col-md-3 aos aos-init aos-animate">
               <div className="work-info">
                 <div className="work-icon">
-                  <span><Image src="/img/number-2.png" alt="" /></span>
+                  <span><img src="/img/number-2.png" alt="" /></span>
                 </div>
                 <div className="work-content">
                   <h5>Secure and trusted</h5>
@@ -426,7 +424,7 @@ const Surgeries = () => {
             <div className="col-lg-3 col-md-3 aos aos-init aos-animate">
               <div className="work-info">
                 <div className="work-icon">
-                  <span><Image src="/img/number-3.png" alt="" /></span>
+                  <span><img src="/img/number-3.png" alt="" /></span>
                 </div>
                 <div className="work-content">
                   <h5>Meaningful insights</h5>
@@ -438,7 +436,7 @@ const Surgeries = () => {
             <div className="col-lg-3 col-md-3">
               <div className="work-info">
                 <div className="work-icon">
-                  <span><Image src="/img/number-4.png" alt="" /></span>
+                  <span><img src="/img/number-4.png" alt="" /></span>
                 </div>
                 <div className="work-content">
                   <h5>Post Surgery Care</h5>
@@ -455,10 +453,10 @@ const Surgeries = () => {
       <section className="testimonial-section">
         <div className="testimonial-shape-img">
           <div className="testimonial-shape-left">
-            <Image src="/img/shape-04.png" alt="" />
+            <img src="/img/shape-04.png" alt="" />
           </div>
           <div className="testimonial-shape-right">
-            <Image src="/img/shape-05.png" alt="" />
+            <img src="/img/shape-05.png" alt="" />
           </div>
         </div>
         <div className="container">
@@ -468,7 +466,7 @@ const Surgeries = () => {
                 <div className="testimonial-grid">
                   <div className="testimonial-info">
                     <div className="testimonial-img">
-                      <Image src="/img/clients/client-01.jpg" className="img-fluid" alt="" />
+                      <img src="/img/clients/client-01.jpg" className="img-fluid" alt="" />
                     </div>
                     <div className="testimonial-content">
                       <div className="section-inner-header testimonial-header">
@@ -486,7 +484,7 @@ const Surgeries = () => {
                 <div className="testimonial-grid">
                   <div className="testimonial-info">
                     <div className="testimonial-img">
-                      <Image src="/img/clients/client-02.jpg" className="img-fluid" alt="" />
+                      <img src="/img/clients/client-02.jpg" className="img-fluid" alt="" />
                     </div>
                     <div className="testimonial-content">
                       <div className="section-inner-header testimonial-header">
@@ -503,7 +501,7 @@ const Surgeries = () => {
                 <div className="testimonial-grid">
                   <div className="testimonial-info">
                     <div className="testimonial-img">
-                      <Image src="/img/clients/client-03.jpg" className="img-fluid" alt="" />
+                      <img src="/img/clients/client-03.jpg" className="img-fluid" alt="" />
                     </div>
                     <div className="testimonial-content">
                       <div className="section-inner-header testimonial-header">

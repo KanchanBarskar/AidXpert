@@ -212,7 +212,7 @@ const DoctorDashboard = () => {
                                                                         <td className="text-center">Rs.500/-</td>
                                                                         <td className="text-center">
                                                                             <div className="consultation-types" style={{ display: "inline-block" }}>
-                                                                                <a href="javascript:void(0);" style={{ width: "40px", minWidth: "40px", color: "#eb1831", border: "1px solid #eb1831" }}>
+                                                                                <a href="#" style={{ width: "40px", minWidth: "40px", color: "#eb1831", border: "1px solid #eb1831" }}>
                                                                                     <i className="feather-video" style={{ marginRight: "0px" }}></i>
                                                                                 </a>
 
@@ -220,13 +220,13 @@ const DoctorDashboard = () => {
                                                                         </td>
                                                                         <td className="text-end">
                                                                             <div className="table-action">
-                                                                                <a href="javascript:void(0);" className="btn btn-sm bg-info-light">
+                                                                                <a href="#" className="btn btn-sm bg-info-light">
                                                                                     <i className="far fa-eye"></i> View
                                                                                 </a>
-                                                                                <a href="javascript:void(0);" className="btn btn-sm bg-success-light">
+                                                                                <a href="#" className="btn btn-sm bg-success-light">
                                                                                     <i className="fas fa-check"></i> Accept
                                                                                 </a>
-                                                                                <a href="javascript:void(0);" className="btn btn-sm bg-danger-light">
+                                                                                <a href="#" className="btn btn-sm bg-danger-light">
                                                                                     <i className="fas fa-times"></i> Cancel
                                                                                 </a>
                                                                             </div>
@@ -245,7 +245,7 @@ const DoctorDashboard = () => {
                                                                         <td className="text-center">Rs. 300/-</td>
                                                                         <td className="text-center">
                                                                             <div className="consultation-types" style={{ display: "inline-block" }}>
-                                                                                <a href="javascript:void(0);" style={{ width: "40px", minWidth: "40px", color: "#34b74f", border: "1px solid #34b74f" }}>
+                                                                                <a href="#" style={{ width: "40px", minWidth: "40px", color: "#34b74f", border: "1px solid #34b74f" }}>
                                                                                     <i className="feather-mic" style={{ marginRight: "0px" }}></i>
                                                                                 </a>
 
@@ -253,13 +253,13 @@ const DoctorDashboard = () => {
                                                                         </td>
                                                                         <td className="text-end">
                                                                             <div className="table-action">
-                                                                                <a href="javascript:void(0);" className="btn btn-sm bg-info-light">
+                                                                                <a href="#" className="btn btn-sm bg-info-light">
                                                                                     <i className="far fa-eye"></i> View
                                                                                 </a>
-                                                                                <a href="javascript:void(0);" className="btn btn-sm bg-success-light">
+                                                                                <a href="#" className="btn btn-sm bg-success-light">
                                                                                     <i className="fas fa-check"></i> Accept
                                                                                 </a>
-                                                                                <a href="javascript:void(0);" className="btn btn-sm bg-danger-light">
+                                                                                <a href="#" className="btn btn-sm bg-danger-light">
                                                                                     <i className="fas fa-times"></i> Cancel
                                                                                 </a>
                                                                             </div>
@@ -304,7 +304,7 @@ const DoctorDashboard = () => {
                                                                         <td className="text-center">Rs.300/-</td>
                                                                         <td className="text-center">
                                                                             <div className="consultation-types" style={{ display: "inline-block" }}>
-                                                                                <a href="javascript:void(0);" style={{ width: "40px", minWidth: "40px", color: "#eb1831", border: "1px solid #eb1831" }}>
+                                                                                <a href="#" style={{ width: "40px", minWidth: "40px", color: "#eb1831", border: "1px solid #eb1831" }}>
                                                                                     <i className="feather-video" style={{ marginRight: "0px" }}></i>
                                                                                 </a>
 
@@ -312,13 +312,13 @@ const DoctorDashboard = () => {
                                                                         </td>
                                                                         <td className="text-end">
                                                                             <div className="table-action">
-                                                                                <a href="javascript:void(0);" className="btn btn-sm bg-info-light">
+                                                                                <a href="#" className="btn btn-sm bg-info-light">
                                                                                     <i className="far fa-eye"></i> View
                                                                                 </a>
-                                                                                <a href="javascript:void(0);" className="btn btn-sm bg-success-light">
+                                                                                <a href="#" className="btn btn-sm bg-success-light">
                                                                                     <i className="fas fa-check"></i> Accept
                                                                                 </a>
-                                                                                <a href="javascript:void(0);" className="btn btn-sm bg-danger-light">
+                                                                                <a href="#" className="btn btn-sm bg-danger-light">
                                                                                     <i className="fas fa-times"></i> Cancel
                                                                                 </a>
                                                                             </div>
@@ -337,7 +337,7 @@ const DoctorDashboard = () => {
                                                                         <td className="text-center">Rs.300/-</td>
                                                                         <td className="text-center">
                                                                             <div className="consultation-types" style={{display: "inline-block"}}>
-                                                                                <a href="javascript:void(0);" style={{ width: "40px", minWidth: "40px", color: "#34b74f", border: "1px solid #34b74f" }}>
+                                                                                <a href="#" style={{ width: "40px", minWidth: "40px", color: "#34b74f", border: "1px solid #34b74f" }}>
                                                                                     <i className="feather-mic" style={{ marginRight: "0px" }}></i>
                                                                                 </a>
 
@@ -345,13 +345,13 @@ const DoctorDashboard = () => {
                                                                         </td>
                                                                         <td className="text-end">
                                                                             <div className="table-action">
-                                                                                <a href="javascript:void(0);" className="btn btn-sm bg-info-light">
+                                                                                <a href="#" className="btn btn-sm bg-info-light">
                                                                                     <i className="far fa-eye"></i> View
                                                                                 </a>
-                                                                                <a href="javascript:void(0);" className="btn btn-sm bg-success-light">
+                                                                                <a href="#" className="btn btn-sm bg-success-light">
                                                                                     <i className="fas fa-check"></i> Accept
                                                                                 </a>
-                                                                                <a href="javascript:void(0);" className="btn btn-sm bg-danger-light">
+                                                                                <a href="#" className="btn btn-sm bg-danger-light">
                                                                                     <i className="fas fa-times"></i> Cancel
                                                                                 </a>
                                                                             </div>
@@ -370,7 +370,7 @@ const DoctorDashboard = () => {
                                                                         <td className="text-center">Rs.300/-</td>
                                                                         <td className="text-center">
                                                                             <div className="consultation-types" style={{ display: "inline-block" }}>
-                                                                                <a href="javascript:void(0);" style={{ width: "40px", minWidth: "40px", color: "#34b74f", border: "1px solid #34b74f" }}>
+                                                                                <a href="#" style={{ width: "40px", minWidth: "40px", color: "#34b74f", border: "1px solid #34b74f" }}>
                                                                                     <i className="feather-mic" style={{ marginRight: "0px" }}></i>
                                                                                 </a>
 
@@ -378,13 +378,13 @@ const DoctorDashboard = () => {
                                                                         </td>
                                                                         <td className="text-end">
                                                                             <div className="table-action">
-                                                                                <a href="javascript:void(0);" className="btn btn-sm bg-info-light">
+                                                                                <a href="#" className="btn btn-sm bg-info-light">
                                                                                     <i className="far fa-eye"></i> View
                                                                                 </a>
-                                                                                <a href="javascript:void(0);" className="btn btn-sm bg-success-light">
+                                                                                <a href="#" className="btn btn-sm bg-success-light">
                                                                                     <i className="fas fa-check"></i> Accept
                                                                                 </a>
-                                                                                <a href="javascript:void(0);" className="btn btn-sm bg-danger-light">
+                                                                                <a href="#" className="btn btn-sm bg-danger-light">
                                                                                     <i className="fas fa-times"></i> Cancel
                                                                                 </a>
                                                                             </div>

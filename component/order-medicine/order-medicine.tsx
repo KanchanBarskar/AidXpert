@@ -1,8 +1,6 @@
 "use client";
 import React from "react";
-import Image from "next/image";
 import "../../styles/globals.css";
-import Script from "next/script";
 
 const OrderMedecine = () => {
     return (<>
@@ -57,7 +55,7 @@ const OrderMedecine = () => {
                                     </div>
                                 </div>
                                 <div className="col-12 col-lg-6 d-flex justify-content-center">
-                                    <Image src="/img/doc-slide-1.png" alt="" />
+                                    <img src="/img/doc-slide-1.png" alt="" />
                                 </div>
                             </div>
 
@@ -78,7 +76,7 @@ const OrderMedecine = () => {
                                     </div>
                                 </div>
                                 <div className="col-6 col-12 col-lg-6 d-flex justify-left">
-                                    <Image src="/img/doc-slide-12.png" alt="" />
+                                    <img src="/img/doc-slide-12.png" alt="" />
                                 </div>
                             </div>
 
@@ -164,7 +162,7 @@ const OrderMedecine = () => {
                                         <h4>Categories</h4>
                                         <div>
                                             <label className="custom_check">
-                                                <input type="checkbox" name="gender_type" checked />
+                                                <input type="checkbox" name="gender_type" defaultChecked />
                                                 <span className="checkmark"></span> Family Care
                                             </label>
                                         </div>
@@ -237,11 +235,11 @@ const OrderMedecine = () => {
                                     <div className="profile-widget">
                                         <div className="doc-img">
                                             <a href="product-description.html" tabIndex={-1}>
-                                                <Image className="img-fluid" alt="Product image" src="/img/products/product.jpg" />
+                                                <img className="img-fluid" alt="Product image" src="/img/products/product.jpg" />
                                             </a>
-                                            <a href="javascript:void(0)" className="fav-btn" tabIndex={-1}>
+                                            <button className="fav-btn" tabIndex={-1} style={{ background: 'none', border: 'none', padding: 0, margin: 0, cursor: 'pointer' }} aria-label="Add to favorites">
                                                 <i className="far fa-bookmark"></i>
-                                            </a>
+                                            </button>
                                         </div>
                                         <div className="pro-content">
                                             <h3 className="title pb-4">
@@ -263,11 +261,11 @@ const OrderMedecine = () => {
                                     <div className="profile-widget">
                                         <div className="doc-img">
                                             <a href="product-description.html" tabIndex={-1}>
-                                                <Image className="img-fluid" alt="Product image" src="/img/products/product13.jpg" />
+                                                <img className="img-fluid" alt="Product image" src="/img/products/product13.jpg" />
                                             </a>
-                                            <a href="javascript:void(0)" className="fav-btn" tabIndex={-1}>
+                                            <button className="fav-btn" tabIndex={-1} style={{ background: 'none', border: 'none', padding: 0, margin: 0, cursor: 'pointer' }} aria-label="Add to favorites">
                                                 <i className="far fa-bookmark"></i>
-                                            </a>
+                                            </button>
                                         </div>
                                         <div className="pro-content">
                                             <h3 className="title pb-4">
@@ -288,11 +286,11 @@ const OrderMedecine = () => {
                                     <div className="profile-widget">
                                         <div className="doc-img">
                                             <a href="product-description.html" tabIndex={-1}>
-                                                <Image className="img-fluid" alt="Product image" src="/img/products/product1.jpg" />
+                                                <img className="img-fluid" alt="Product image" src="/img/products/product1.jpg" />
                                             </a>
-                                            <a href="javascript:void(0)" className="fav-btn" tabIndex={-1}>
+                                            <button className="fav-btn" tabIndex={-1} style={{ background: 'none', border: 'none', padding: 0, margin: 0, cursor: 'pointer' }} aria-label="Add to favorites">
                                                 <i className="far fa-bookmark"></i>
-                                            </a>
+                                            </button>
                                         </div>
                                         <div className="pro-content">
                                             <h3 className="title pb-4">
@@ -313,11 +311,11 @@ const OrderMedecine = () => {
                                     <div className="profile-widget">
                                         <div className="doc-img">
                                             <a href="product-description.html" tabIndex={-1}>
-                                                <Image className="img-fluid" alt="Product image" src="/img/products/product2.jpg" />
+                                                <img className="img-fluid" alt="Product image" src="/img/products/product2.jpg" />
                                             </a>
-                                            <a href="javascript:void(0)" className="fav-btn" tabIndex={-1}>
+                                            <button className="fav-btn" tabIndex={-1} style={{ background: 'none', border: 'none', padding: 0, margin: 0, cursor: 'pointer' }} aria-label="Add to favorites">
                                                 <i className="far fa-bookmark"></i>
-                                            </a>
+                                            </button>
                                         </div>
                                         <div className="pro-content">
                                             <h3 className="title pb-4">
@@ -339,11 +337,11 @@ const OrderMedecine = () => {
                                     <div className="profile-widget">
                                         <div className="doc-img">
                                             <a href="product-description.html" tabIndex={-1}>
-                                                <Image className="img-fluid" alt="Product image" src="/img/products/product12.jpg" />
+                                                <img className="img-fluid" alt="Product image" src="/img/products/product12.jpg" />
                                             </a>
-                                            <a href="javascript:void(0)" className="fav-btn" tabIndex={-1}>
+                                            <button className="fav-btn" tabIndex={-1} style={{ background: 'none', border: 'none', padding: 0, margin: 0, cursor: 'pointer' }} aria-label="Add to favorites">
                                                 <i className="far fa-bookmark"></i>
-                                            </a>
+                                            </button>
                                         </div>
                                         <div className="pro-content">
                                             <h3 className="title pb-4">
@@ -364,11 +362,11 @@ const OrderMedecine = () => {
                                     <div className="profile-widget">
                                         <div className="doc-img">
                                             <a href="product-description.html" tabIndex={-1}>
-                                                <Image className="img-fluid" alt="Product image" src="/img/products/product11.jpg" />
+                                                <img className="img-fluid" alt="Product image" src="/img/products/product11.jpg" />
                                             </a>
-                                            <a href="javascript:void(0)" className="fav-btn" tabIndex={-1}>
+                                            <button className="fav-btn" tabIndex={-1} style={{ background: 'none', border: 'none', padding: 0, margin: 0, cursor: 'pointer' }} aria-label="Add to favorites">
                                                 <i className="far fa-bookmark"></i>
-                                            </a>
+                                            </button>
                                         </div>
                                         <div className="pro-content">
                                             <h3 className="title pb-4">
@@ -389,11 +387,11 @@ const OrderMedecine = () => {
                                     <div className="profile-widget">
                                         <div className="doc-img">
                                             <a href="product-description.html" tabIndex={-1}>
-                                                <Image className="img-fluid" alt="Product image" src="/img/products/product3.jpg" />
+                                                <img className="img-fluid" alt="Product image" src="/img/products/product3.jpg" />
                                             </a>
-                                            <a href="javascript:void(0)" className="fav-btn" tabIndex={-1}>
+                                            <button className="fav-btn" tabIndex={-1} style={{ background: 'none', border: 'none', padding: 0, margin: 0, cursor: 'pointer' }} aria-label="Add to favorites">
                                                 <i className="far fa-bookmark"></i>
-                                            </a>
+                                            </button>
                                         </div>
                                         <div className="pro-content">
                                             <h3 className="title pb-4">
@@ -414,11 +412,11 @@ const OrderMedecine = () => {
                                     <div className="profile-widget">
                                         <div className="doc-img">
                                             <a href="product-description.html" tabIndex={-1}>
-                                                <Image className="img-fluid" alt="Product image" src="/img/products/product10.jpg" />
+                                                <img className="img-fluid" alt="Product image" src="/img/products/product10.jpg" />
                                             </a>
-                                            <a href="javascript:void(0)" className="fav-btn" tabIndex={-1}>
+                                            <button className="fav-btn" tabIndex={-1} style={{ background: 'none', border: 'none', padding: 0, margin: 0, cursor: 'pointer' }} aria-label="Add to favorites">
                                                 <i className="far fa-bookmark"></i>
-                                            </a>
+                                            </button>
                                         </div>
                                         <div className="pro-content">
                                             <h3 className="title pb-4">
@@ -440,11 +438,11 @@ const OrderMedecine = () => {
                                     <div className="profile-widget">
                                         <div className="doc-img">
                                             <a href="product-description.html" tabIndex={-1}>
-                                                <Image className="img-fluid" alt="Product image" src="/img/products/product4.jpg" />
+                                                <img className="img-fluid" alt="Product image" src="/img/products/product4.jpg" />
                                             </a>
-                                            <a href="javascript:void(0)" className="fav-btn" tabIndex={-1}>
+                                            <button className="fav-btn" tabIndex={-1} style={{ background: 'none', border: 'none', padding: 0, margin: 0, cursor: 'pointer' }} aria-label="Add to favorites">
                                                 <i className="far fa-bookmark"></i>
-                                            </a>
+                                            </button>
                                         </div>
                                         <div className="pro-content">
                                             <h3 className="title pb-4">
@@ -465,11 +463,11 @@ const OrderMedecine = () => {
                                     <div className="profile-widget">
                                         <div className="doc-img">
                                             <a href="product-description.html" tabIndex={-1}>
-                                                <Image className="img-fluid" alt="Product image" src="/img/products/product14.jpg" />
+                                                <img className="img-fluid" alt="Product image" src="/img/products/product14.jpg" />
                                             </a>
-                                            <a href="javascript:void(0)" className="fav-btn" tabIndex={-1}>
+                                            <button className="fav-btn" tabIndex={-1} style={{ background: 'none', border: 'none', padding: 0, margin: 0, cursor: 'pointer' }} aria-label="Add to favorites">
                                                 <i className="far fa-bookmark"></i>
-                                            </a>
+                                            </button>
                                         </div>
                                         <div className="pro-content">
                                             <h3 className="title pb-4">
@@ -490,11 +488,11 @@ const OrderMedecine = () => {
                                     <div className="profile-widget">
                                         <div className="doc-img">
                                             <a href="product-description.html" tabIndex={-1}>
-                                                <Image className="img-fluid" alt="Product image" src="/img/products/product5.jpg" />
+                                                <img className="img-fluid" alt="Product image" src="/img/products/product5.jpg" />
                                             </a>
-                                            <a href="javascript:void(0)" className="fav-btn" tabIndex={-1}>
+                                            <button className="fav-btn" tabIndex={-1} style={{ background: 'none', border: 'none', padding: 0, margin: 0, cursor: 'pointer' }} aria-label="Add to favorites">
                                                 <i className="far fa-bookmark"></i>
-                                            </a>
+                                            </button>
                                         </div>
                                         <div className="pro-content">
                                             <h3 className="title pb-4">
@@ -515,11 +513,11 @@ const OrderMedecine = () => {
                                     <div className="profile-widget">
                                         <div className="doc-img">
                                             <a href="product-description.html" tabIndex={-1}>
-                                                <Image className="img-fluid" alt="Product image" src="/img/products/product6.jpg" />
+                                                <img className="img-fluid" alt="Product image" src="/img/products/product6.jpg" />
                                             </a>
-                                            <a href="javascript:void(0)" className="fav-btn" tabIndex={-1}>
+                                            <button className="fav-btn" tabIndex={-1} style={{ background: 'none', border: 'none', padding: 0, margin: 0, cursor: 'pointer' }} aria-label="Add to favorites">
                                                 <i className="far fa-bookmark"></i>
-                                            </a>
+                                            </button>
                                         </div>
                                         <div className="pro-content">
                                             <h3 className="title pb-4">
@@ -540,11 +538,11 @@ const OrderMedecine = () => {
                                     <div className="profile-widget">
                                         <div className="doc-img">
                                             <a href="product-description.html" tabIndex={-1}>
-                                                <Image className="img-fluid" alt="Product image" src="/img/products/product15.jpg" />
+                                                <img className="img-fluid" alt="Product image" src="/img/products/product15.jpg" />
                                             </a>
-                                            <a href="javascript:void(0)" className="fav-btn" tabIndex={-1}>
+                                            <button className="fav-btn" tabIndex={-1} style={{ background: 'none', border: 'none', padding: 0, margin: 0, cursor: 'pointer' }} aria-label="Add to favorites">
                                                 <i className="far fa-bookmark"></i>
-                                            </a>
+                                            </button>
                                         </div>
                                         <div className="pro-content">
                                             <h3 className="title pb-4">
@@ -565,11 +563,11 @@ const OrderMedecine = () => {
                                     <div className="profile-widget">
                                         <div className="doc-img">
                                             <a href="product-description.html" tabIndex={-1}>
-                                                <Image className="img-fluid" alt="Product image" src="/img/products/product7.jpg" />
+                                                <img className="img-fluid" alt="Product image" src="/img/products/product7.jpg" />
                                             </a>
-                                            <a href="javascript:void(0)" className="fav-btn" tabIndex={-1}>
+                                            <button className="fav-btn" tabIndex={-1} style={{ background: 'none', border: 'none', padding: 0, margin: 0, cursor: 'pointer' }} aria-label="Add to favorites">
                                                 <i className="far fa-bookmark"></i>
-                                            </a>
+                                            </button>
                                         </div>
                                         <div className="pro-content">
                                             <h3 className="title pb-4">
@@ -590,11 +588,11 @@ const OrderMedecine = () => {
                                     <div className="profile-widget">
                                         <div className="doc-img">
                                             <a href="product-description.html" tabIndex={-1}>
-                                                <Image className="img-fluid" alt="Product image" src="/img/products/product8.jpg" />
+                                                <img className="img-fluid" alt="Product image" src="/img/products/product8.jpg" />
                                             </a>
-                                            <a href="javascript:void(0)" className="fav-btn" tabIndex={-1}>
+                                            <button className="fav-btn" tabIndex={-1} style={{ background: 'none', border: 'none', padding: 0, margin: 0, cursor: 'pointer' }} aria-label="Add to favorites">
                                                 <i className="far fa-bookmark"></i>
-                                            </a>
+                                            </button>
                                         </div>
                                         <div className="pro-content">
                                             <h3 className="title pb-4">

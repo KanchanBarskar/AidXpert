@@ -2,6 +2,8 @@
 
 import React, { useState } from "react";
 import Link from "next/link";
+import Header from "../layout/Header";
+import Footer from "../layout/Footer";
 
 const PatientSignUp: React.FC = () => {
     const [form, setForm] = useState({
@@ -46,6 +48,7 @@ const PatientSignUp: React.FC = () => {
     return (
         <div className="login-body">
             <div className="main-wrapper">
+                <Header />
                 <div className="login-content-info">
                     <div className="container">
 
@@ -107,6 +110,7 @@ const PatientSignUp: React.FC = () => {
 
                     </div>
                 </div>
+                <Footer />
             </div>
         </div>
     );

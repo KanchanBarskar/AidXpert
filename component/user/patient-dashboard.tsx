@@ -1,9 +1,12 @@
 "use client";
 import React from "react";
+import Header from "../layout/Header";
+import Footer from "../layout/Footer";
 
 const PatientDashboard = () => {
     return (
         <div className="main-wrapper">
+            <Header />
             <div className="login-content-info">
                 <div className="container">
 
@@ -65,6 +68,7 @@ const PatientDashboard = () => {
 
                 </div>
             </div>
+            <Footer />
         </div>
     );
 

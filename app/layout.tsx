@@ -1,6 +1,4 @@
 import type { Metadata } from "next";
-import Header from "../component/layout/Header";
-import Footer from "../component/layout/Footer";
 import { GlobalProvider } from "./GlobalProvider";
 import Script from "next/script";
 import "../styles/globals.css";
@@ -28,9 +26,7 @@ export default function RootLayout({
       </head>
       <body>
       <GlobalProvider>
-          <Header />
           {children}
-          <Footer />
         </GlobalProvider>
         <Script src="/js/jquery-3.6.4.min.js" strategy="beforeInteractive" />
         <Script src="/js/bootstrap.bundle.min.js" strategy="afterInteractive" />

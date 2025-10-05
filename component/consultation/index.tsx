@@ -1,9 +1,12 @@
 import React from "react";
 import "../../styles/globals.css";
+import Header from "../layout/Header";
+import Footer from "../layout/Footer";
 
 const ConsulationIndex = () => {
   return (
     <div className="main-wrapper">
+      <Header />
       <section className="banner-section">
         <div className="container">
           <div className="row align-items-center">
@@ -885,6 +888,7 @@ const ConsulationIndex = () => {
           </div>
         </div>
       </section>
+      <Footer />
     </div>
   );
 };

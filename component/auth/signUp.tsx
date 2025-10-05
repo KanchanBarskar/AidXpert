@@ -1,8 +1,12 @@
 import React from "react";
+import Header from "../layout/Header";
+import Footer from "../layout/Footer";
 
 const SignUp = () => {
     return (
-        <div>
+        <div className="login-body">
+            <div className="main-wrapper">
+                <Header />
             <div className="login-content-info">
                 <div className="container">
 
@@ -61,7 +65,8 @@ const SignUp = () => {
 
                 </div>
             </div>
-
+            <Footer />
+        </div>
         </div>
     );
 };

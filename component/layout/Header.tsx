@@ -1,8 +1,12 @@
+"use client"
 import React from "react";
+import { useSelector } from "react-redux";
+import type { RootState } from "@/redux/store";
 
-const Header = () =>{
-    return(
-        <div className="main-wrapper">
+const Header = () => {
+  const isAuthenticated = useSelector((state: RootState) => state.auth.isAuthenticated);
+  return (
+    <div className="main-wrapper">
   <header className="header">
     <nav className="navbar navbar-expand-lg header-nav">
       <div className="navbar-header">
@@ -51,10 +55,11 @@ const Header = () =>{
         </ul>
       </div>
       <ul className="nav header-navbar-rht">
-      
-        <li className="nav-item">
-          <a className="nav-link header-login" href="/login">Login / Signup </a>
-        </li>
+        {!isAuthenticated && (
+          <li className="nav-item">
+            <a className="nav-link header-login" href="/login">Login / Signup </a>
+          </li>
+        )}
       </ul>
     </nav>
   </header>

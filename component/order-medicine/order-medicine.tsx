@@ -1,6 +1,8 @@
 "use client";
 import React from "react";
 import "../../styles/globals.css";
+import Header from "../layout/Header";
+import Footer from "../layout/Footer";
 
 const OrderMedecine = () => {
     return (<>
@@ -33,6 +35,7 @@ const OrderMedecine = () => {
             `}</style>
 
         <div className="main-wrapper">
+            <Header />
 
             <section className="section full-slide-home">
                 <div>
@@ -618,6 +621,7 @@ const OrderMedecine = () => {
                     </div>
                 </div>
             </div>
+            <Footer />
         </div>
 
     </>);

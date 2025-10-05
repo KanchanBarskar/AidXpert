@@ -1,9 +1,12 @@
 import React from "react";
+import Header from "../layout/Header";
+import Footer from "../layout/Footer";
 
 
 const NewConsultation = () => {
     return (
     <div className="main-wrapper"><div className="breadcrumb-bar-two">
+        <Header />  
     <div className="container">
     <div className="row align-items-center inner-banner">
     <div className="col-md-12 col-12 text-center">
@@ -129,7 +132,9 @@ const NewConsultation = () => {
         </div>
     </div>
 </div>
-</div></div>
+</div>
+<Footer />
+</div>
 
     )}
 

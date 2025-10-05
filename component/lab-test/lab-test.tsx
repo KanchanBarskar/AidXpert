@@ -1,9 +1,13 @@
 import React from "react";
 import "../../styles/globals.css";
+import Head from "next/head";
+import Header from "../layout/Header";
+import Footer from "../layout/Footer";
 
 const LabTest = () => {
   return (<>
 <div className="main-wrapper home-ten">
+  <Header />
     <section className="banner-section">
       <div className="container">
         <div className="row align-items-center">
@@ -894,6 +898,7 @@ const LabTest = () => {
         </div>
       </div>
     </div>
+    <Footer />
 </div>
   </>);
 };

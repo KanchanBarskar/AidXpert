@@ -1,9 +1,31 @@
 "use client";
+import { useDispatch } from "react-redux";
+import { setUser, setIsAuthenticated, setToken } from "@/redux/features/userSlice";
 import React from "react";
+import { useSelector } from "react-redux";
+import type { RootState } from "@/redux/store";
+import Header from "../layout/Header";
+import Footer from "../layout/Footer";
+
+type DoctorUser = {
+    first_name?: string;
+    last_name?: string;
+    profile_image_name?: string;
+    biography?: string;
+    email?: string;
+    phone_number?: string;
+    city?: string;
+    [key: string]: any;
+};
 
 const DoctorDashboard = () => {
+    const user = useSelector((state: RootState) => state.auth.user) as DoctorUser | null;
+    const token = useSelector((state: RootState) => state.auth.token);
+    const dispatch = useDispatch();
+
     return (
-        <div className="main-wrapper">
+                <div className="main-wrapper">
+                    <Header />
             <div className="breadcrumb-bar-two">
                 <div className="container">
                     <div className="row align-items-center inner-banner">
@@ -31,12 +53,15 @@ const DoctorDashboard = () => {
                                 <div className="widget-profile pro-widget-content">
                                     <div className="profile-info-widget">
                                         <a href="#" className="booking-doc-img">
-                                            <img src="assets/img/doctors/doctor-thumb-02.jpg" alt="User Image"/>
+                                            <img src={user?.profile_image_name || "assets/img/doctors/doctor-thumb-02.jpg"} alt="User Image"/>
                                         </a>
                                         <div className="profile-det-info">
-                                            <h3>Dr. Ganesh K</h3>
+                                            <h3>{user ? `${user.first_name} ${user.last_name}` : "Doctor"}</h3>
                                             <div className="patient-details">
-                                                <h5 className="mb-0">BDS, MDS - Oral & Maxillofacial Surgery</h5>
+                                                <h5 className="mb-0">{user?.biography || "BDS, MDS - Oral & Maxillofacial Surgery"}</h5>
+                                                <div>Email: {user?.email}</div>
+                                                <div>Phone: {user?.phone_number}</div>
+                                                <div>City: {user?.city}</div>
                                             </div>
                                         </div>
                                     </div>
@@ -102,7 +127,30 @@ const DoctorDashboard = () => {
                                                 </a>
                                             </li>
                                             <li>
-                                                <a href="index.html">
+                                                <a href="#" onClick={async (e) => {
+                                                    e.preventDefault();
+                                                    if (!token) {
+                                                        dispatch(setUser(null));
+                                                        dispatch(setIsAuthenticated(false));
+                                                        dispatch(setToken(null));
+                                                        window.location.href = "/login";
+                                                        return;
+                                                    }
+                                                    try {
+                                                        await fetch("https://aidxpert-backend-api-uat.onrender.com/api/v1/auth/logout", {
+                                                            method: "POST",
+                                                            headers: {
+                                                                "Authorization": `Bearer ${token}`,
+                                                            },
+                                                        });
+                                                    } catch (err) {
+                                                        // Optionally handle error
+                                                    }
+                                                    dispatch(setUser(null));
+                                                    dispatch(setIsAuthenticated(false));
+                                                    dispatch(setToken(null));
+                                                    window.location.href = "/login";
+                                                }}>
                                                     <i className="fas fa-sign-out-alt"></i>
                                                     <span>Logout</span>
                                                 </a>
@@ -405,7 +453,7 @@ const DoctorDashboard = () => {
                     </div>
                 </div>
             </div>
-
+            <Footer />
         </div>
     );
 };

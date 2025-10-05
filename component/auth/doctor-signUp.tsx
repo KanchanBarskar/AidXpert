@@ -1,5 +1,7 @@
 "use client";
 import React, { useState } from "react";
+import Header from "../layout/Header";
+import Footer from "../layout/Footer";
 
 const DoctorSignUp: React.FC = () => {
     const [step, setStep] = useState(1);
@@ -67,6 +69,7 @@ const DoctorSignUp: React.FC = () => {
     return (
         <div className="login-body">
             <div className="main-wrapper">
+                <Header />
                 <div className="login-content-info">
                     <div className="container">
 
@@ -232,6 +235,7 @@ const DoctorSignUp: React.FC = () => {
 
                     </div>
                 </div>
+                <Footer />
             </div>
         </div>
     );

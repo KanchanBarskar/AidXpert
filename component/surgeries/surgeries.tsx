@@ -1,6 +1,8 @@
 "use client";
 import React from "react";
 import "../../styles/globals.css";
+import Header from "../layout/Header";
+import Footer from "../layout/Footer";
 
 const Surgeries = () => {
   return (<>
@@ -27,6 +29,7 @@ const Surgeries = () => {
 }
 `}</style>
     <div className="main-wrapper home-ten">
+      <Header />
 
       <section className="banner-slider1">
         <div className="container">
@@ -578,7 +581,7 @@ const Surgeries = () => {
           </div>
         </div>
       </section>
-
+<Footer />
 
     </div>
   </>);

@@ -1,9 +1,11 @@
 import React from "react";
-import Script from "next/script";
+import Header from "./layout/Header";
+import Footer from "./layout/Footer";
 
 const Index = () => {
     return (
     <div className="main-wrapper">
+        <Header/>
         <section className="section section-search">
             <div className="container-fluid">
                 <div className="banner-wrapper">
@@ -543,7 +545,7 @@ const Index = () => {
             </div>
         </section>
 
-              
+        <Footer />      
     </div>
     
     );
